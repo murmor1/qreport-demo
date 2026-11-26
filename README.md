@@ -104,6 +104,12 @@ Español (Spanish), Italiano (Italian), Português (Portuguese), Svenska (Swedis
 한국어 (Korean), Українська (Ukrainian), Tiếng Việt (Vietnamese), हिन्दी (Hindi),
 Bahasa Indonesia (Indonesian).
 
+## About this project
+
+QReport has been in active development since **2017** — a mature product designed and maintained by
+its author over the years. AI (Claude) was used only to refine the visual themes and to publish this
+demo to GitHub; the product itself is the author's own work.
+
 ## Trial notice
 
 This repository hosts the **trial build** only:
@@ -215,6 +221,12 @@ Polski (Lehçe), Čeština (Çekçe), Română (Rumence), Ελληνικά (Yuna
 Magyar (Macarca), Русский (Rusça), 简体中文 (Çince, Basitleştirilmiş), 繁體中文 (Çince, Geleneksel),
 日本語 (Japonca), 한국어 (Korece), Українська (Ukraynaca), Tiếng Việt (Vietnamca), हिन्दी (Hintçe),
 Bahasa Indonesia (Endonezce).
+
+### Proje hakkında
+
+QReport **2017'den beri** geliştirilmektedir — geliştiricisi tarafından yıllar içinde tasarlanmış ve
+sürdürülen olgun bir üründür. Yapay zekâ (Claude) yalnızca görsel temaların iyileştirilmesinde ve bu
+demonun GitHub'a yayınlanmasında kullanılmıştır; ürünün kendisi geliştiricisinin emeğidir.
 
 ### Deneme sürümü notu
 
