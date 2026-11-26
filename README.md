@@ -14,6 +14,9 @@ browser** with pdfmake — no server needed. The same engine **also runs on the 
 - **Change the language and theme** from the **Preferences** button (right end of the toolbar):
   24 interface languages and several themes — light / dark, Windows 10 / 11, Bootstrap and the
   classic jQuery UI themes.
+- After switching the language, click **New** — every built-in template opens fully localized in
+  that language: **Invoice**, **Delivery note**, **Shipping label**, **Customer list**,
+  **Sales summary**.
 
 <p align="center">
   <a href="screenshots/en.jpg"><img src="screenshots/en.jpg" width="32%" alt="English, light theme"></a>
@@ -140,6 +143,8 @@ toplu raporlar için.
 - **Preview** ile PDF alın, ya da **Download Excel**.
 - **Dil ve temayı** araç çubuğunun sağındaki **Preferences** düğmesinden değiştirin: 24 arayüz dili
   ve çeşitli temalar — açık / koyu, Windows 10 / 11, Bootstrap ve klasik jQuery UI temaları.
+- Dili değiştirdikten sonra **New**'e basın — hazır şablonların her biri o dilde yüklenir:
+  **Fatura**, **Sevk irsaliyesi**, **Kargo etiketi**, **Müşteri listesi**, **Satış özeti**.
 
 ### Öne çıkanlar
 
