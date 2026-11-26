@@ -1,0 +1,789 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "發票 AB12345678",
+    "author": "範例科技股份有限公司"
+  },
+  "schemas": [
+    {
+      "name": "invoice",
+      "label": "發票",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "AB12345678",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "duedate": {
+          "name": "duedate",
+          "label": "Duedate",
+          "type": "datetime",
+          "value": "2026-12-23",
+          "index": 2
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "範例科技股份有限公司",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "台北市信義區信義路五段7號",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+886 2 0000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "12345675",
+              "index": 4
+            }
+          },
+          "index": 3
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "華信貿易股份有限公司",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "台中市西屯區台灣大道三段99號",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+886 4 0000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "87654321",
+              "index": 4
+            }
+          },
+          "index": 4
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "筆記型電腦",
+              "index": 0
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 1
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "台",
+              "index": 2
+            },
+            "price": {
+              "name": "price",
+              "label": "Price",
+              "type": "number",
+              "value": 37500,
+              "index": 3
+            },
+            "vatrate": {
+              "name": "vatrate",
+              "label": "Vatrate",
+              "type": "number",
+              "value": 5,
+              "index": 4
+            },
+            "amount": {
+              "name": "amount",
+              "label": "Amount",
+              "type": "number",
+              "value": 75000,
+              "index": 5
+            }
+          },
+          "index": 5
+        },
+        "vat": {
+          "name": "vat",
+          "label": "Vat",
+          "type": "number",
+          "value": 5100,
+          "index": 6
+        },
+        "total": {
+          "name": "total",
+          "label": "Total",
+          "type": "number",
+          "value": 107100,
+          "index": 7
+        },
+        "notes": {
+          "name": "notes",
+          "label": "Notes",
+          "type": "string",
+          "value": "請於付款期限前以銀行轉帳付款。帳號：0000 0000 0000 0000",
+          "index": 8
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "invoice.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "AB12345678",
+        "date": "2026-11-23",
+        "duedate": "2026-12-23",
+        "seller": {
+          "name": "範例科技股份有限公司",
+          "address": "台北市信義區信義路五段7號",
+          "phone": "+886 2 0000 0000",
+          "taxoffice": "",
+          "taxno": "12345675"
+        },
+        "customer": {
+          "name": "華信貿易股份有限公司",
+          "address": "台中市西屯區台灣大道三段99號",
+          "phone": "+886 4 0000 0000",
+          "taxoffice": "",
+          "taxno": "87654321"
+        },
+        "items": [
+          {
+            "description": "筆記型電腦",
+            "qty": 2,
+            "unit": "台",
+            "price": 37500,
+            "vatrate": 5,
+            "amount": 75000
+          },
+          {
+            "description": "無線滑鼠",
+            "qty": 5,
+            "unit": "個",
+            "price": 540,
+            "vatrate": 5,
+            "amount": 2700
+          },
+          {
+            "description": "軟體授權（1年）",
+            "qty": 3,
+            "unit": "套",
+            "price": 5700,
+            "vatrate": 5,
+            "amount": 17100
+          },
+          {
+            "description": "安裝服務",
+            "qty": 6,
+            "unit": "小時",
+            "price": 900,
+            "vatrate": 5,
+            "amount": 5400
+          },
+          {
+            "description": "技術書籍",
+            "qty": 4,
+            "unit": "本",
+            "price": 450,
+            "vatrate": 5,
+            "amount": 1800
+          }
+        ],
+        "vat": 5100,
+        "total": 107100,
+        "notes": "請於付款期限前以銀行轉帳付款。帳號：0000 0000 0000 0000"
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 182,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 320,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "範例科技股份有限公司"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 320,
+          "height": 13,
+          "value": "台北市信義區信義路五段7號"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 320,
+          "height": 13,
+          "value": "+886 2 0000 0000"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "formula": "\"統一編號: \" & [invoice.seller.taxno]",
+          "top": 50,
+          "left": 0,
+          "width": 320,
+          "height": 13
+        },
+        {
+          "type": "string",
+          "fontsize": 24,
+          "fontname": "Liberation Sans",
+          "value": "發票",
+          "top": 0,
+          "left": 341,
+          "width": 199.8,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "發票號碼",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "AB12345678"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "開立日期",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.date",
+          "format": "YYYY/MM/DD",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "付款期限",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.duedate",
+          "format": "YYYY/MM/DD",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-12-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 90,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "買受人",
+          "top": 95,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.customer.name",
+          "top": 108,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "華信貿易股份有限公司"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.customer.address",
+          "top": 126,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "台中市西屯區台灣大道三段99號"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "formula": "\"統一編號: \" & [invoice.customer.taxno]",
+          "top": 154,
+          "left": 8,
+          "width": 304,
+          "height": 12
+        },
+        {
+          "type": "barcode",
+          "format": "qrcode",
+          "namespace": "invoice.no",
+          "top": 90,
+          "left": 461,
+          "width": 79.8,
+          "height": 80,
+          "value": "AB12345678"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "invoice.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "emptytext": "",
+            "columns": [
+              {
+                "width": 44,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "品名",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "invoice.items[].description",
+                  "value": "筆記型電腦"
+                }
+              },
+              {
+                "width": 9,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "數量",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].qty",
+                  "format": "0,0",
+                  "locale": "zh-tw",
+                  "value": 2
+                }
+              },
+              {
+                "width": 9,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "單位",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "invoice.items[].unit",
+                  "value": "台"
+                }
+              },
+              {
+                "width": 14,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "單價",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].price",
+                  "format": "0,0",
+                  "locale": "zh-tw",
+                  "value": 37500
+                }
+              },
+              {
+                "width": 8,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "稅率 %",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].vatrate",
+                  "format": "0",
+                  "value": 5
+                }
+              },
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "金額",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].amount",
+                  "format": "0,0",
+                  "locale": "zh-tw",
+                  "value": 75000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "invoice.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "範例科技股份有限公司"
+          },
+          {
+            "type": "pagenofm",
+            "format": "第 {N} 頁，共 {M} 頁",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "備註",
+          "top": 10,
+          "left": 0,
+          "width": 300,
+          "height": 12,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.notes",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 52,
+          "fontcolor": "rgb(110, 110, 110)",
+          "value": "請於付款期限前以銀行轉帳付款。帳號：0000 0000 0000 0000"
+        },
+        {
+          "type": "line",
+          "thickness": 0.5,
+          "top": 6,
+          "left": 341,
+          "width": 199.8
+        },
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "小計",
+          "top": 12,
+          "left": 341,
+          "width": 100,
+          "height": 16
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "invoice.items[].amount",
+          "top": 12,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "format": "0,0",
+          "locale": "zh-tw"
+        },
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "營業稅",
+          "top": 30,
+          "left": 341,
+          "width": 100,
+          "height": 16
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "namespace": "invoice.vat",
+          "top": 30,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "format": "0,0",
+          "locale": "zh-tw",
+          "value": 5100
+        },
+        {
+          "type": "string",
+          "fontsize": 12,
+          "fontname": "Liberation Sans",
+          "value": " 總計",
+          "top": 50,
+          "left": 341,
+          "width": 100,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(255, 255, 255)",
+          "bgcolor": "rgb(31, 73, 125)",
+          "valign": "middle"
+        },
+        {
+          "type": "number",
+          "fontsize": 12,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "namespace": "invoice.total",
+          "top": 50,
+          "left": 441,
+          "width": 99.8,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(255, 255, 255)",
+          "bgcolor": "rgb(31, 73, 125)",
+          "valign": "middle",
+          "format": "0,0",
+          "locale": "zh-tw",
+          "value": 107100
+        }
+      ]
+    }
+  },
+  "images": [],
+  "cjkfont": "tc"
+}

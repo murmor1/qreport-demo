@@ -1,0 +1,709 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Dowód dostawy WZ-2026-000456",
+    "author": "Przykład Technologie Sp. z o.o."
+  },
+  "schemas": [
+    {
+      "name": "delivery",
+      "label": "Dowód dostawy",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "WZ-2026-000456",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "shipdate": {
+          "name": "shipdate",
+          "label": "Shipdate",
+          "type": "datetime",
+          "value": "2026-11-24",
+          "index": 2
+        },
+        "vehicle": {
+          "name": "vehicle",
+          "label": "Vehicle",
+          "type": "string",
+          "value": "WX 12345",
+          "index": 3
+        },
+        "driver": {
+          "name": "driver",
+          "label": "Driver",
+          "type": "string",
+          "value": "Piotr Nowak",
+          "index": 4
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Przykład Technologie Sp. z o.o.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "ul. Marszałkowska 12, 00-001 Warszawa",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+48 22 000 00 00",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "525-000-00-00",
+              "index": 4
+            }
+          },
+          "index": 5
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Kowalski i Wspólnicy Sp. j.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "ul. Floriańska 45, 31-019 Kraków",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+48 12 000 00 00",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "676-000-00-00",
+              "index": 4
+            }
+          },
+          "index": 6
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "code": {
+              "name": "code",
+              "label": "Code",
+              "type": "string",
+              "value": "TOW-1001",
+              "index": 0
+            },
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "Komputer przenośny",
+              "index": 1
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 2
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "szt.",
+              "index": 3
+            }
+          },
+          "index": 7
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "delivery.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "WZ-2026-000456",
+        "date": "2026-11-23",
+        "shipdate": "2026-11-24",
+        "vehicle": "WX 12345",
+        "driver": "Piotr Nowak",
+        "seller": {
+          "name": "Przykład Technologie Sp. z o.o.",
+          "address": "ul. Marszałkowska 12, 00-001 Warszawa",
+          "phone": "+48 22 000 00 00",
+          "taxoffice": "",
+          "taxno": "525-000-00-00"
+        },
+        "customer": {
+          "name": "Kowalski i Wspólnicy Sp. j.",
+          "address": "ul. Floriańska 45, 31-019 Kraków",
+          "phone": "+48 12 000 00 00",
+          "taxoffice": "",
+          "taxno": "676-000-00-00"
+        },
+        "items": [
+          {
+            "code": "TOW-1001",
+            "description": "Komputer przenośny",
+            "qty": 2,
+            "unit": "szt."
+          },
+          {
+            "code": "TOW-1002",
+            "description": "Mysz bezprzewodowa",
+            "qty": 5,
+            "unit": "szt."
+          },
+          {
+            "code": "TOW-1003",
+            "description": "Licencja na oprogramowanie (1 rok)",
+            "qty": 3,
+            "unit": "szt."
+          },
+          {
+            "code": "TOW-1004",
+            "description": "Usługa instalacji",
+            "qty": 6,
+            "unit": "godz."
+          },
+          {
+            "code": "TOW-1005",
+            "description": "Książka techniczna",
+            "qty": 4,
+            "unit": "szt."
+          }
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 190,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "Przykład Technologie Sp. z o.o."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "ul. Marszałkowska 12, 00-001 Warszawa"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "+48 22 000 00 00"
+        },
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "DOWÓD DOSTAWY",
+          "top": 0,
+          "left": 305,
+          "width": 235.9,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Nr WZ",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "WZ-2026-000456"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Data",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.date",
+          "format": "DD.MM.YYYY",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Data wysyłki",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.shipdate",
+          "format": "DD.MM.YYYY",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-24"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Pojazd",
+          "top": 80,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.vehicle",
+          "top": 80,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "WX 12345"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Kierowca",
+          "top": 94,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.driver",
+          "top": 94,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "Piotr Nowak"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 100,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "ODBIORCA",
+          "top": 105,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.name",
+          "top": 118,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "Kowalski i Wspólnicy Sp. j."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.address",
+          "top": 136,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "ul. Floriańska 45, 31-019 Kraków"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.phone",
+          "top": 164,
+          "left": 8,
+          "width": 304,
+          "height": 12,
+          "value": "+48 12 000 00 00"
+        },
+        {
+          "type": "barcode",
+          "format": "code128",
+          "namespace": "delivery.no",
+          "top": 120,
+          "left": 361,
+          "width": 179.8,
+          "height": 50,
+          "displaytext": true,
+          "fontsize": 8,
+          "value": "WZ-2026-000456"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "delivery.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Kod towaru",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].code",
+                  "value": "TOW-1001"
+                }
+              },
+              {
+                "width": 52,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Nazwa",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].description",
+                  "value": "Komputer przenośny"
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Ilość",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "delivery.items[].qty",
+                  "format": "0,0",
+                  "locale": "pl",
+                  "value": 2
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "J.m.",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].unit",
+                  "value": "szt."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "delivery.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "Przykład Technologie Sp. z o.o."
+          },
+          {
+            "type": "pagenofm",
+            "format": "Strona {N} z {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 0,
+          "width": 255,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Wydał",
+          "top": 26,
+          "left": 8,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Imię i nazwisko / Podpis",
+          "top": 78,
+          "left": 8,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 286,
+          "width": 254.9,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Odebrał",
+          "top": 26,
+          "left": 294,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Imię i nazwisko / Podpis",
+          "top": 78,
+          "left": 294,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    }
+  },
+  "images": []
+}

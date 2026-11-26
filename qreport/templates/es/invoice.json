@@ -1,0 +1,788 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Factura FAC-2026-000123",
+    "author": "Tecnología Ejemplo S.L."
+  },
+  "schemas": [
+    {
+      "name": "invoice",
+      "label": "Factura",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "FAC-2026-000123",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "duedate": {
+          "name": "duedate",
+          "label": "Duedate",
+          "type": "datetime",
+          "value": "2026-12-23",
+          "index": 2
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Tecnología Ejemplo S.L.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "Calle Mayor 12, 28013 Madrid",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+34 910 000 000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "B12345678",
+              "index": 4
+            }
+          },
+          "index": 3
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "García y Asociados S.A.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "Avenida Diagonal 45, 08019 Barcelona",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+34 930 000 000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "A87654321",
+              "index": 4
+            }
+          },
+          "index": 4
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "Ordenador portátil",
+              "index": 0
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 1
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "ud.",
+              "index": 2
+            },
+            "price": {
+              "name": "price",
+              "label": "Price",
+              "type": "number",
+              "value": 1250,
+              "index": 3
+            },
+            "vatrate": {
+              "name": "vatrate",
+              "label": "Vatrate",
+              "type": "number",
+              "value": 21,
+              "index": 4
+            },
+            "amount": {
+              "name": "amount",
+              "label": "Amount",
+              "type": "number",
+              "value": 2500,
+              "index": 5
+            }
+          },
+          "index": 5
+        },
+        "vat": {
+          "name": "vat",
+          "label": "Vat",
+          "type": "number",
+          "value": 703.8,
+          "index": 6
+        },
+        "total": {
+          "name": "total",
+          "label": "Total",
+          "type": "number",
+          "value": 4103.8,
+          "index": 7
+        },
+        "notes": {
+          "name": "notes",
+          "label": "Notes",
+          "type": "string",
+          "value": "Pago por transferencia bancaria antes de la fecha de vencimiento. IBAN: ES00 0000 0000 0000 0000 0000",
+          "index": 8
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "invoice.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "FAC-2026-000123",
+        "date": "2026-11-23",
+        "duedate": "2026-12-23",
+        "seller": {
+          "name": "Tecnología Ejemplo S.L.",
+          "address": "Calle Mayor 12, 28013 Madrid",
+          "phone": "+34 910 000 000",
+          "taxoffice": "",
+          "taxno": "B12345678"
+        },
+        "customer": {
+          "name": "García y Asociados S.A.",
+          "address": "Avenida Diagonal 45, 08019 Barcelona",
+          "phone": "+34 930 000 000",
+          "taxoffice": "",
+          "taxno": "A87654321"
+        },
+        "items": [
+          {
+            "description": "Ordenador portátil",
+            "qty": 2,
+            "unit": "ud.",
+            "price": 1250,
+            "vatrate": 21,
+            "amount": 2500
+          },
+          {
+            "description": "Ratón inalámbrico",
+            "qty": 5,
+            "unit": "ud.",
+            "price": 18,
+            "vatrate": 21,
+            "amount": 90
+          },
+          {
+            "description": "Licencia de software (1 año)",
+            "qty": 3,
+            "unit": "ud.",
+            "price": 190,
+            "vatrate": 21,
+            "amount": 570
+          },
+          {
+            "description": "Servicio de instalación",
+            "qty": 6,
+            "unit": "h",
+            "price": 30,
+            "vatrate": 21,
+            "amount": 180
+          },
+          {
+            "description": "Libro técnico",
+            "qty": 4,
+            "unit": "ud.",
+            "price": 15,
+            "vatrate": 4,
+            "amount": 60
+          }
+        ],
+        "vat": 703.8,
+        "total": 4103.8,
+        "notes": "Pago por transferencia bancaria antes de la fecha de vencimiento. IBAN: ES00 0000 0000 0000 0000 0000"
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 182,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 320,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "Tecnología Ejemplo S.L."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 320,
+          "height": 13,
+          "value": "Calle Mayor 12, 28013 Madrid"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 320,
+          "height": 13,
+          "value": "+34 910 000 000"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "formula": "\"NIF: \" & [invoice.seller.taxno]",
+          "top": 50,
+          "left": 0,
+          "width": 320,
+          "height": 13
+        },
+        {
+          "type": "string",
+          "fontsize": 24,
+          "fontname": "Liberation Sans",
+          "value": "FACTURA",
+          "top": 0,
+          "left": 341,
+          "width": 199.8,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "N.º de factura",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "FAC-2026-000123"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Fecha",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.date",
+          "format": "DD/MM/YYYY",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Vencimiento",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.duedate",
+          "format": "DD/MM/YYYY",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-12-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 90,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "FACTURAR A",
+          "top": 95,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.customer.name",
+          "top": 108,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "García y Asociados S.A."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.customer.address",
+          "top": 126,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "Avenida Diagonal 45, 08019 Barcelona"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "formula": "\"NIF: \" & [invoice.customer.taxno]",
+          "top": 154,
+          "left": 8,
+          "width": 304,
+          "height": 12
+        },
+        {
+          "type": "barcode",
+          "format": "qrcode",
+          "namespace": "invoice.no",
+          "top": 90,
+          "left": 461,
+          "width": 79.8,
+          "height": 80,
+          "value": "FAC-2026-000123"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "invoice.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "emptytext": "",
+            "columns": [
+              {
+                "width": 44,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Descripción",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "invoice.items[].description",
+                  "value": "Ordenador portátil"
+                }
+              },
+              {
+                "width": 9,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Cant.",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].qty",
+                  "format": "0,0",
+                  "locale": "es",
+                  "value": 2
+                }
+              },
+              {
+                "width": 9,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Unidad",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "invoice.items[].unit",
+                  "value": "ud."
+                }
+              },
+              {
+                "width": 14,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Precio unit.",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].price",
+                  "format": "0,0.00",
+                  "locale": "es",
+                  "value": 1250
+                }
+              },
+              {
+                "width": 8,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "IVA %",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].vatrate",
+                  "format": "0",
+                  "value": 21
+                }
+              },
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Importe",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "invoice.items[].amount",
+                  "format": "0,0.00",
+                  "locale": "es",
+                  "value": 2500
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "invoice.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "Tecnología Ejemplo S.L."
+          },
+          {
+            "type": "pagenofm",
+            "format": "Página {N} de {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Notas",
+          "top": 10,
+          "left": 0,
+          "width": 300,
+          "height": 12,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "invoice.notes",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 52,
+          "fontcolor": "rgb(110, 110, 110)",
+          "value": "Pago por transferencia bancaria antes de la fecha de vencimiento. IBAN: ES00 0000 0000 0000 0000 0000"
+        },
+        {
+          "type": "line",
+          "thickness": 0.5,
+          "top": 6,
+          "left": 341,
+          "width": 199.8
+        },
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Base imponible",
+          "top": 12,
+          "left": 341,
+          "width": 100,
+          "height": 16
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "invoice.items[].amount",
+          "top": 12,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "format": "0,0.00",
+          "locale": "es"
+        },
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "IVA",
+          "top": 30,
+          "left": 341,
+          "width": 100,
+          "height": 16
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "namespace": "invoice.vat",
+          "top": 30,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "format": "0,0.00",
+          "locale": "es",
+          "value": 703.8
+        },
+        {
+          "type": "string",
+          "fontsize": 12,
+          "fontname": "Liberation Sans",
+          "value": " Total",
+          "top": 50,
+          "left": 341,
+          "width": 100,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(255, 255, 255)",
+          "bgcolor": "rgb(31, 73, 125)",
+          "valign": "middle"
+        },
+        {
+          "type": "number",
+          "fontsize": 12,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "namespace": "invoice.total",
+          "top": 50,
+          "left": 441,
+          "width": 99.8,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(255, 255, 255)",
+          "bgcolor": "rgb(31, 73, 125)",
+          "valign": "middle",
+          "format": "0,0.00",
+          "locale": "es",
+          "value": 4103.8
+        }
+      ]
+    }
+  },
+  "images": []
+}

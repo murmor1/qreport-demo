@@ -1,0 +1,709 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Delivery note DN-2026-000456",
+    "author": "Sample Technology Inc."
+  },
+  "schemas": [
+    {
+      "name": "delivery",
+      "label": "Delivery note",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "DN-2026-000456",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "shipdate": {
+          "name": "shipdate",
+          "label": "Shipdate",
+          "type": "datetime",
+          "value": "2026-11-24",
+          "index": 2
+        },
+        "vehicle": {
+          "name": "vehicle",
+          "label": "Vehicle",
+          "type": "string",
+          "value": "CA 7ABC123",
+          "index": 3
+        },
+        "driver": {
+          "name": "driver",
+          "label": "Driver",
+          "type": "string",
+          "value": "John Miller",
+          "index": 4
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Sample Technology Inc.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "12 Market Street, San Francisco, CA 94105",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+1 415 000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "US-123456789",
+              "index": 4
+            }
+          },
+          "index": 5
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Smith & Co. LLC",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "45 Lake Avenue, Chicago, IL 60601",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+1 312 000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "US-987654321",
+              "index": 4
+            }
+          },
+          "index": 6
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "code": {
+              "name": "code",
+              "label": "Code",
+              "type": "string",
+              "value": "ITM-1001",
+              "index": 0
+            },
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "Laptop computer",
+              "index": 1
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 2
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "pcs",
+              "index": 3
+            }
+          },
+          "index": 7
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "delivery.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "DN-2026-000456",
+        "date": "2026-11-23",
+        "shipdate": "2026-11-24",
+        "vehicle": "CA 7ABC123",
+        "driver": "John Miller",
+        "seller": {
+          "name": "Sample Technology Inc.",
+          "address": "12 Market Street, San Francisco, CA 94105",
+          "phone": "+1 415 000 0000",
+          "taxoffice": "",
+          "taxno": "US-123456789"
+        },
+        "customer": {
+          "name": "Smith & Co. LLC",
+          "address": "45 Lake Avenue, Chicago, IL 60601",
+          "phone": "+1 312 000 0000",
+          "taxoffice": "",
+          "taxno": "US-987654321"
+        },
+        "items": [
+          {
+            "code": "ITM-1001",
+            "description": "Laptop computer",
+            "qty": 2,
+            "unit": "pcs"
+          },
+          {
+            "code": "ITM-1002",
+            "description": "Wireless mouse",
+            "qty": 5,
+            "unit": "pcs"
+          },
+          {
+            "code": "ITM-1003",
+            "description": "Software license (1 year)",
+            "qty": 3,
+            "unit": "pcs"
+          },
+          {
+            "code": "ITM-1004",
+            "description": "Installation service",
+            "qty": 6,
+            "unit": "hours"
+          },
+          {
+            "code": "ITM-1005",
+            "description": "Technical book",
+            "qty": 4,
+            "unit": "pcs"
+          }
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 190,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "Sample Technology Inc."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "12 Market Street, San Francisco, CA 94105"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "+1 415 000 0000"
+        },
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "DELIVERY NOTE",
+          "top": 0,
+          "left": 305,
+          "width": 235.9,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Delivery No",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "DN-2026-000456"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Date",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.date",
+          "format": "MMM D, YYYY",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Ship Date",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.shipdate",
+          "format": "MMM D, YYYY",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-24"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Vehicle",
+          "top": 80,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.vehicle",
+          "top": 80,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "CA 7ABC123"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Driver",
+          "top": 94,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.driver",
+          "top": 94,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "John Miller"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 100,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "SHIP TO",
+          "top": 105,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.name",
+          "top": 118,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "Smith & Co. LLC"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.address",
+          "top": 136,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "45 Lake Avenue, Chicago, IL 60601"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.phone",
+          "top": 164,
+          "left": 8,
+          "width": 304,
+          "height": 12,
+          "value": "+1 312 000 0000"
+        },
+        {
+          "type": "barcode",
+          "format": "code128",
+          "namespace": "delivery.no",
+          "top": 120,
+          "left": 361,
+          "width": 179.8,
+          "height": 50,
+          "displaytext": true,
+          "fontsize": 8,
+          "value": "DN-2026-000456"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "delivery.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Item Code",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].code",
+                  "value": "ITM-1001"
+                }
+              },
+              {
+                "width": 52,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Description",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].description",
+                  "value": "Laptop computer"
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Qty",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "delivery.items[].qty",
+                  "format": "0,0",
+                  "locale": "en",
+                  "value": 2
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Unit",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].unit",
+                  "value": "pcs"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "delivery.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "Sample Technology Inc."
+          },
+          {
+            "type": "pagenofm",
+            "format": "Page {N} of {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 0,
+          "width": 255,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Delivered by",
+          "top": 26,
+          "left": 8,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Name / Signature",
+          "top": 78,
+          "left": 8,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 286,
+          "width": 254.9,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Received by",
+          "top": 26,
+          "left": 294,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Name / Signature",
+          "top": 78,
+          "left": 294,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    }
+  },
+  "images": []
+}

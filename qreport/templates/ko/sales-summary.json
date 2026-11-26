@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "매출 요약"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "매출",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "대구",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "노트북",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "하드웨어",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 1260000,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 2240000,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "대구",
+          "product": "노트북",
+          "category": "하드웨어",
+          "amount": 1260000,
+          "target": 2240000,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "부산",
+          "product": "키보드",
+          "category": "하드웨어",
+          "amount": 1988000,
+          "target": 2240000,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "서울",
+          "product": "백신",
+          "category": "소프트웨어",
+          "amount": 2716000,
+          "target": 2240000,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "인천",
+          "product": "유지보수 계약",
+          "category": "서비스",
+          "amount": 3444000,
+          "target": 2240000,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "대구",
+          "product": "오피스 제품군",
+          "category": "소프트웨어",
+          "amount": 4284000,
+          "target": 2240000,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "부산",
+          "product": "설치",
+          "category": "서비스",
+          "amount": 1736000,
+          "target": 2240000,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "서울",
+          "product": "노트북",
+          "category": "하드웨어",
+          "amount": 2464000,
+          "target": 2240000,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "인천",
+          "product": "키보드",
+          "category": "하드웨어",
+          "amount": 3192000,
+          "target": 2240000,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "대구",
+          "product": "유지보수 계약",
+          "category": "서비스",
+          "amount": 3262000,
+          "target": 2240000,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "부산",
+          "product": "모니터",
+          "category": "하드웨어",
+          "amount": 3990000,
+          "target": 2240000,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "서울",
+          "product": "오피스 제품군",
+          "category": "소프트웨어",
+          "amount": 1442000,
+          "target": 2240000,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "인천",
+          "product": "설치",
+          "category": "서비스",
+          "amount": 2170000,
+          "target": 2240000,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "대구",
+          "product": "키보드",
+          "category": "하드웨어",
+          "amount": 3318000,
+          "target": 2240000,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "부산",
+          "product": "백신",
+          "category": "소프트웨어",
+          "amount": 4046000,
+          "target": 2240000,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "서울",
+          "product": "유지보수 계약",
+          "category": "서비스",
+          "amount": 4774000,
+          "target": 2240000,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "인천",
+          "product": "모니터",
+          "category": "하드웨어",
+          "amount": 2226000,
+          "target": 2240000,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "대구",
+          "product": "설치",
+          "category": "서비스",
+          "amount": 2450000,
+          "target": 2240000,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "부산",
+          "product": "노트북",
+          "category": "하드웨어",
+          "amount": 3178000,
+          "target": 2240000,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "서울",
+          "product": "키보드",
+          "category": "하드웨어",
+          "amount": 3906000,
+          "target": 2240000,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "인천",
+          "product": "백신",
+          "category": "소프트웨어",
+          "amount": 4634000,
+          "target": 2240000,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "대구",
+          "product": "모니터",
+          "category": "하드웨어",
+          "amount": 5628000,
+          "target": 2240000,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "부산",
+          "product": "오피스 제품군",
+          "category": "소프트웨어",
+          "amount": 3080000,
+          "target": 2240000,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "서울",
+          "product": "설치",
+          "category": "서비스",
+          "amount": 3808000,
+          "target": 2240000,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "인천",
+          "product": "노트북",
+          "category": "하드웨어",
+          "amount": 4536000,
+          "target": 2240000,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "매출 요약",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "YYYY.MM.DD HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ko",
+          "format": "0.[0]a",
+          "othertext": "기타",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "도시별 매출",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "금액",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ko",
+          "format": "0.[0]a",
+          "othertext": "기타",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "제품군별 비중",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "금액"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ko",
+          "format": "0.[0]a",
+          "othertext": "기타",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "월별 매출과 목표",
+          "category": "month",
+          "categoryformat": "M월",
+          "language": "korean",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "금액",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "목표",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "수량",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ko",
+          "format": "0.[0]a",
+          "othertext": "기타",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "인기 제품",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "금액",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "월",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "YYYY년 M월",
+                  "language": "ko",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "도시",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "대구"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "제품",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "노트북"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "제품군",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "하드웨어"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "금액",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "ko",
+                  "value": 1260000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "ko",
+            "format": "0.[0]a",
+            "othertext": "기타",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "이 페이지의 매출",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "금액",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "{N} / {M} 페이지",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "합계",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "ko"
+        }
+      ]
+    }
+  },
+  "images": []
+}

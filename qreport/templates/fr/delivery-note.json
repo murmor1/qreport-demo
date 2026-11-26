@@ -1,0 +1,709 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Bon de livraison BL-2026-000456",
+    "author": "Exemple Technologies SAS"
+  },
+  "schemas": [
+    {
+      "name": "delivery",
+      "label": "Bon de livraison",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "BL-2026-000456",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "shipdate": {
+          "name": "shipdate",
+          "label": "Shipdate",
+          "type": "datetime",
+          "value": "2026-11-24",
+          "index": 2
+        },
+        "vehicle": {
+          "name": "vehicle",
+          "label": "Vehicle",
+          "type": "string",
+          "value": "AB-123-CD",
+          "index": 3
+        },
+        "driver": {
+          "name": "driver",
+          "label": "Driver",
+          "type": "string",
+          "value": "Julien Bernard",
+          "index": 4
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Exemple Technologies SAS",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "12 rue du Marché, 75002 Paris",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+33 1 00 00 00 00",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "FR12345678901",
+              "index": 4
+            }
+          },
+          "index": 5
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Martin & Fils SARL",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "45 avenue du Lac, 69003 Lyon",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+33 4 00 00 00 00",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "FR98765432109",
+              "index": 4
+            }
+          },
+          "index": 6
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "code": {
+              "name": "code",
+              "label": "Code",
+              "type": "string",
+              "value": "REF-1001",
+              "index": 0
+            },
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "Ordinateur portable",
+              "index": 1
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 2
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "pce",
+              "index": 3
+            }
+          },
+          "index": 7
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "delivery.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "BL-2026-000456",
+        "date": "2026-11-23",
+        "shipdate": "2026-11-24",
+        "vehicle": "AB-123-CD",
+        "driver": "Julien Bernard",
+        "seller": {
+          "name": "Exemple Technologies SAS",
+          "address": "12 rue du Marché, 75002 Paris",
+          "phone": "+33 1 00 00 00 00",
+          "taxoffice": "",
+          "taxno": "FR12345678901"
+        },
+        "customer": {
+          "name": "Martin & Fils SARL",
+          "address": "45 avenue du Lac, 69003 Lyon",
+          "phone": "+33 4 00 00 00 00",
+          "taxoffice": "",
+          "taxno": "FR98765432109"
+        },
+        "items": [
+          {
+            "code": "REF-1001",
+            "description": "Ordinateur portable",
+            "qty": 2,
+            "unit": "pce"
+          },
+          {
+            "code": "REF-1002",
+            "description": "Souris sans fil",
+            "qty": 5,
+            "unit": "pce"
+          },
+          {
+            "code": "REF-1003",
+            "description": "Licence logicielle (1 an)",
+            "qty": 3,
+            "unit": "pce"
+          },
+          {
+            "code": "REF-1004",
+            "description": "Prestation d’installation",
+            "qty": 6,
+            "unit": "h"
+          },
+          {
+            "code": "REF-1005",
+            "description": "Livre technique",
+            "qty": 4,
+            "unit": "pce"
+          }
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 190,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "Exemple Technologies SAS"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "12 rue du Marché, 75002 Paris"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "+33 1 00 00 00 00"
+        },
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "BON DE LIVRAISON",
+          "top": 0,
+          "left": 305,
+          "width": 235.9,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "N° de bon",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "BL-2026-000456"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Date",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.date",
+          "format": "DD/MM/YYYY",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Expédition",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.shipdate",
+          "format": "DD/MM/YYYY",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-24"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Véhicule",
+          "top": 80,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.vehicle",
+          "top": 80,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "AB-123-CD"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Chauffeur",
+          "top": 94,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.driver",
+          "top": 94,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "Julien Bernard"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 100,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "LIVRER À",
+          "top": 105,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.name",
+          "top": 118,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "Martin & Fils SARL"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.address",
+          "top": 136,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "45 avenue du Lac, 69003 Lyon"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.phone",
+          "top": 164,
+          "left": 8,
+          "width": 304,
+          "height": 12,
+          "value": "+33 4 00 00 00 00"
+        },
+        {
+          "type": "barcode",
+          "format": "code128",
+          "namespace": "delivery.no",
+          "top": 120,
+          "left": 361,
+          "width": 179.8,
+          "height": 50,
+          "displaytext": true,
+          "fontsize": 8,
+          "value": "BL-2026-000456"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "delivery.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Référence",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].code",
+                  "value": "REF-1001"
+                }
+              },
+              {
+                "width": 52,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Désignation",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].description",
+                  "value": "Ordinateur portable"
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Qté",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "delivery.items[].qty",
+                  "format": "0,0",
+                  "locale": "fr",
+                  "value": 2
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Unité",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].unit",
+                  "value": "pce"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "delivery.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "Exemple Technologies SAS"
+          },
+          {
+            "type": "pagenofm",
+            "format": "Page {N} sur {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 0,
+          "width": 255,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Livré par",
+          "top": 26,
+          "left": 8,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Nom / Signature",
+          "top": 78,
+          "left": 8,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 286,
+          "width": 254.9,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Reçu par",
+          "top": 26,
+          "left": 294,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Nom / Signature",
+          "top": 78,
+          "left": 294,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    }
+  },
+  "images": []
+}

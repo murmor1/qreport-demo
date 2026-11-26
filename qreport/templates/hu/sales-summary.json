@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Értékesítési összefoglaló"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "Értékesítés",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "Budapest",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "Laptop",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "Hardver",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 324000,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 576000,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "Budapest",
+          "product": "Laptop",
+          "category": "Hardver",
+          "amount": 324000,
+          "target": 576000,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Debrecen",
+          "product": "Billentyűzet",
+          "category": "Hardver",
+          "amount": 511200,
+          "target": 576000,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Pécs",
+          "product": "Vírusirtó",
+          "category": "Szoftver",
+          "amount": 698400,
+          "target": 576000,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Szeged",
+          "product": "Karbantartási szerződés",
+          "category": "Szolgáltatások",
+          "amount": 885600,
+          "target": 576000,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Budapest",
+          "product": "Irodai csomag",
+          "category": "Szoftver",
+          "amount": 1101600,
+          "target": 576000,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Debrecen",
+          "product": "Telepítés",
+          "category": "Szolgáltatások",
+          "amount": 446400,
+          "target": 576000,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Pécs",
+          "product": "Laptop",
+          "category": "Hardver",
+          "amount": 633600,
+          "target": 576000,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Szeged",
+          "product": "Billentyűzet",
+          "category": "Hardver",
+          "amount": 820800,
+          "target": 576000,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Budapest",
+          "product": "Karbantartási szerződés",
+          "category": "Szolgáltatások",
+          "amount": 838800,
+          "target": 576000,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Debrecen",
+          "product": "Monitor",
+          "category": "Hardver",
+          "amount": 1026000,
+          "target": 576000,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Pécs",
+          "product": "Irodai csomag",
+          "category": "Szoftver",
+          "amount": 370800,
+          "target": 576000,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Szeged",
+          "product": "Telepítés",
+          "category": "Szolgáltatások",
+          "amount": 558000,
+          "target": 576000,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Budapest",
+          "product": "Billentyűzet",
+          "category": "Hardver",
+          "amount": 853200,
+          "target": 576000,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Debrecen",
+          "product": "Vírusirtó",
+          "category": "Szoftver",
+          "amount": 1040400,
+          "target": 576000,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Pécs",
+          "product": "Karbantartási szerződés",
+          "category": "Szolgáltatások",
+          "amount": 1227600,
+          "target": 576000,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Szeged",
+          "product": "Monitor",
+          "category": "Hardver",
+          "amount": 572400,
+          "target": 576000,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Budapest",
+          "product": "Telepítés",
+          "category": "Szolgáltatások",
+          "amount": 630000,
+          "target": 576000,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Debrecen",
+          "product": "Laptop",
+          "category": "Hardver",
+          "amount": 817200,
+          "target": 576000,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Pécs",
+          "product": "Billentyűzet",
+          "category": "Hardver",
+          "amount": 1004400,
+          "target": 576000,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Szeged",
+          "product": "Vírusirtó",
+          "category": "Szoftver",
+          "amount": 1191600,
+          "target": 576000,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Budapest",
+          "product": "Monitor",
+          "category": "Hardver",
+          "amount": 1447200,
+          "target": 576000,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Debrecen",
+          "product": "Irodai csomag",
+          "category": "Szoftver",
+          "amount": 792000,
+          "target": 576000,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Pécs",
+          "product": "Telepítés",
+          "category": "Szolgáltatások",
+          "amount": 979200,
+          "target": 576000,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Szeged",
+          "product": "Laptop",
+          "category": "Hardver",
+          "amount": 1166400,
+          "target": 576000,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Értékesítési összefoglaló",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "YYYY.MM.DD. HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "hu",
+          "format": "0.[0]a",
+          "othertext": "Egyéb",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "Értékesítés városonként",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Összeg",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "hu",
+          "format": "0.[0]a",
+          "othertext": "Egyéb",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "Termékcsoportok aránya",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Összeg"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "hu",
+          "format": "0.[0]a",
+          "othertext": "Egyéb",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "Havi értékesítés és cél",
+          "category": "month",
+          "categoryformat": "MMM",
+          "language": "hungarian",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Összeg",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "Cél",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "Darab",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "hu",
+          "format": "0.[0]a",
+          "othertext": "Egyéb",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "Legkelendőbb termékek",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Összeg",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Hónap",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "YYYY. MMM",
+                  "language": "hu",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Város",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "Budapest"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Termék",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "Laptop"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Termékcsoport",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "Hardver"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Összeg",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "hu",
+                  "value": 324000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "hu",
+            "format": "0.[0]a",
+            "othertext": "Egyéb",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "Értékesítés ezen az oldalon",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "Összeg",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "{N}. oldal / {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Összesen",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "hu"
+        }
+      ]
+    }
+  },
+  "images": []
+}

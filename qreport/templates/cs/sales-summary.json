@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Přehled prodejů"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "Prodeje",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "Brno",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "Notebook",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "Hardware",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 20700,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 36800,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "Brno",
+          "product": "Notebook",
+          "category": "Hardware",
+          "amount": 20700,
+          "target": 36800,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Olomouc",
+          "product": "Klávesnice",
+          "category": "Hardware",
+          "amount": 32660,
+          "target": 36800,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Ostrava",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 44620,
+          "target": 36800,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Praha",
+          "product": "Servisní smlouva",
+          "category": "Služby",
+          "amount": 56580,
+          "target": 36800,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Brno",
+          "product": "Kancelářský balík",
+          "category": "Software",
+          "amount": 70380,
+          "target": 36800,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Olomouc",
+          "product": "Instalace",
+          "category": "Služby",
+          "amount": 28520,
+          "target": 36800,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Ostrava",
+          "product": "Notebook",
+          "category": "Hardware",
+          "amount": 40480,
+          "target": 36800,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Praha",
+          "product": "Klávesnice",
+          "category": "Hardware",
+          "amount": 52440,
+          "target": 36800,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Brno",
+          "product": "Servisní smlouva",
+          "category": "Služby",
+          "amount": 53590,
+          "target": 36800,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Olomouc",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 65550,
+          "target": 36800,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Ostrava",
+          "product": "Kancelářský balík",
+          "category": "Software",
+          "amount": 23690,
+          "target": 36800,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Praha",
+          "product": "Instalace",
+          "category": "Služby",
+          "amount": 35650,
+          "target": 36800,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Brno",
+          "product": "Klávesnice",
+          "category": "Hardware",
+          "amount": 54510,
+          "target": 36800,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Olomouc",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 66470,
+          "target": 36800,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Ostrava",
+          "product": "Servisní smlouva",
+          "category": "Služby",
+          "amount": 78430,
+          "target": 36800,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Praha",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 36570,
+          "target": 36800,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Brno",
+          "product": "Instalace",
+          "category": "Služby",
+          "amount": 40250,
+          "target": 36800,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Olomouc",
+          "product": "Notebook",
+          "category": "Hardware",
+          "amount": 52210,
+          "target": 36800,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Ostrava",
+          "product": "Klávesnice",
+          "category": "Hardware",
+          "amount": 64170,
+          "target": 36800,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Praha",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 76130,
+          "target": 36800,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Brno",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 92460,
+          "target": 36800,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Olomouc",
+          "product": "Kancelářský balík",
+          "category": "Software",
+          "amount": 50600,
+          "target": 36800,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Ostrava",
+          "product": "Instalace",
+          "category": "Služby",
+          "amount": 62560,
+          "target": 36800,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Praha",
+          "product": "Notebook",
+          "category": "Hardware",
+          "amount": 74520,
+          "target": 36800,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Přehled prodejů",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "DD.MM.YYYY HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "cs",
+          "format": "0.[0]a",
+          "othertext": "Ostatní",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "Prodeje podle měst",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Částka",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "cs",
+          "format": "0.[0]a",
+          "othertext": "Ostatní",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "Podíl skupin produktů",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Částka"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "cs",
+          "format": "0.[0]a",
+          "othertext": "Ostatní",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "Měsíční prodeje a cíl",
+          "category": "month",
+          "categoryformat": "MMM",
+          "language": "czech",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Částka",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "Cíl",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "Kusy",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "cs",
+          "format": "0.[0]a",
+          "othertext": "Ostatní",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "Nejprodávanější produkty",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Částka",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Měsíc",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "MMM YYYY",
+                  "language": "cs",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Město",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "Brno"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Produkt",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "Notebook"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Skupina produktů",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "Hardware"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Částka",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "cs",
+                  "value": 20700
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "cs",
+            "format": "0.[0]a",
+            "othertext": "Ostatní",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "Prodeje na této stránce",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "Částka",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "Strana {N} z {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Celkem",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "cs"
+        }
+      ]
+    }
+  },
+  "images": []
+}

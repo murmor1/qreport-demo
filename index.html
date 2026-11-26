@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QReport — Live Demo</title>
+    <meta name="description" content="QReport: an embeddable, in-browser WYSIWYG report designer. Live trial demo.">
+    <link rel="stylesheet" href="qreport/qreport.css">
+    <style>
+        :root { color-scheme: light dark; }
+        html, body { margin: 0; height: 100%; font-family: system-ui, "Segoe UI", Roboto, sans-serif; }
+        body { display: flex; flex-direction: column; }
+        header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 10px 16px; background: #1f2937; color: #e5e7eb; }
+        header .brand { font-size: 18px; font-weight: 700; color: #fff; }
+        header .tag { font-size: 13px; opacity: .85; }
+        header .badge { margin-left: auto; font-size: 12px; font-weight: 600; color: #fde68a; border: 1px solid #b45309; background: #78350f; padding: 3px 10px; border-radius: 999px; }
+        #designer { flex: 1 1 auto; min-height: 0; }
+    </style>
+    <script src="qreport/qreport.min.js"></script>
+</head>
+<body>
+    <header>
+        <span class="brand">QReport</span>
+        <span class="tag">In-browser WYSIWYG report designer &mdash; live demo</span>
+        <span class="badge">Trial: output is watermarked, Save/Open disabled</span>
+    </header>
+    <div id="designer"></div>
+    <script>
+        var d = new QReport(document.getElementById("designer"), { language: "english" });
+        fetch("qreport/templates/en/invoice.json")
+            .then(function (r) { return r.json(); })
+            .then(function (c) { d.load(c); })
+            .catch(function (e) { console.warn("template load failed", e); });
+    </script>
+</body>
+</html>

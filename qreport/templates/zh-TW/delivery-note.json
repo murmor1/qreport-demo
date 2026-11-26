@@ -1,0 +1,710 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "出貨單 SH2026000456",
+    "author": "範例科技股份有限公司"
+  },
+  "schemas": [
+    {
+      "name": "delivery",
+      "label": "出貨單",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "SH2026000456",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "shipdate": {
+          "name": "shipdate",
+          "label": "Shipdate",
+          "type": "datetime",
+          "value": "2026-11-24",
+          "index": 2
+        },
+        "vehicle": {
+          "name": "vehicle",
+          "label": "Vehicle",
+          "type": "string",
+          "value": "ABC-1234",
+          "index": 3
+        },
+        "driver": {
+          "name": "driver",
+          "label": "Driver",
+          "type": "string",
+          "value": "陳志明",
+          "index": 4
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "範例科技股份有限公司",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "台北市信義區信義路五段7號",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+886 2 0000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "12345675",
+              "index": 4
+            }
+          },
+          "index": 5
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "華信貿易股份有限公司",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "台中市西屯區台灣大道三段99號",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+886 4 0000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "87654321",
+              "index": 4
+            }
+          },
+          "index": 6
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "code": {
+              "name": "code",
+              "label": "Code",
+              "type": "string",
+              "value": "SP-1001",
+              "index": 0
+            },
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "筆記型電腦",
+              "index": 1
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 2
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "台",
+              "index": 3
+            }
+          },
+          "index": 7
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "delivery.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "SH2026000456",
+        "date": "2026-11-23",
+        "shipdate": "2026-11-24",
+        "vehicle": "ABC-1234",
+        "driver": "陳志明",
+        "seller": {
+          "name": "範例科技股份有限公司",
+          "address": "台北市信義區信義路五段7號",
+          "phone": "+886 2 0000 0000",
+          "taxoffice": "",
+          "taxno": "12345675"
+        },
+        "customer": {
+          "name": "華信貿易股份有限公司",
+          "address": "台中市西屯區台灣大道三段99號",
+          "phone": "+886 4 0000 0000",
+          "taxoffice": "",
+          "taxno": "87654321"
+        },
+        "items": [
+          {
+            "code": "SP-1001",
+            "description": "筆記型電腦",
+            "qty": 2,
+            "unit": "台"
+          },
+          {
+            "code": "SP-1002",
+            "description": "無線滑鼠",
+            "qty": 5,
+            "unit": "個"
+          },
+          {
+            "code": "SP-1003",
+            "description": "軟體授權（1年）",
+            "qty": 3,
+            "unit": "套"
+          },
+          {
+            "code": "SP-1004",
+            "description": "安裝服務",
+            "qty": 6,
+            "unit": "小時"
+          },
+          {
+            "code": "SP-1005",
+            "description": "技術書籍",
+            "qty": 4,
+            "unit": "本"
+          }
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 190,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "範例科技股份有限公司"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "台北市信義區信義路五段7號"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "+886 2 0000 0000"
+        },
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "出貨單",
+          "top": 0,
+          "left": 305,
+          "width": 235.9,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "出貨單號",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "SH2026000456"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "開立日期",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.date",
+          "format": "YYYY/MM/DD",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "出貨日期",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.shipdate",
+          "format": "YYYY/MM/DD",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-24"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "車牌號碼",
+          "top": 80,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.vehicle",
+          "top": 80,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "ABC-1234"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "司機",
+          "top": 94,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.driver",
+          "top": 94,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "陳志明"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 100,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "收貨資訊",
+          "top": 105,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.name",
+          "top": 118,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "華信貿易股份有限公司"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.address",
+          "top": 136,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "台中市西屯區台灣大道三段99號"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.phone",
+          "top": 164,
+          "left": 8,
+          "width": 304,
+          "height": 12,
+          "value": "+886 4 0000 0000"
+        },
+        {
+          "type": "barcode",
+          "format": "code128",
+          "namespace": "delivery.no",
+          "top": 120,
+          "left": 361,
+          "width": 179.8,
+          "height": 50,
+          "displaytext": true,
+          "fontsize": 8,
+          "value": "SH2026000456"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "delivery.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "商品編號",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].code",
+                  "value": "SP-1001"
+                }
+              },
+              {
+                "width": 52,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "品名",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].description",
+                  "value": "筆記型電腦"
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "數量",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "delivery.items[].qty",
+                  "format": "0,0",
+                  "locale": "zh-tw",
+                  "value": 2
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "單位",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].unit",
+                  "value": "台"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "delivery.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "範例科技股份有限公司"
+          },
+          {
+            "type": "pagenofm",
+            "format": "第 {N} 頁，共 {M} 頁",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 0,
+          "width": 255,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "送貨人",
+          "top": 26,
+          "left": 8,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "姓名 / 簽名",
+          "top": 78,
+          "left": 8,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 286,
+          "width": 254.9,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "收貨人",
+          "top": 26,
+          "left": 294,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "姓名 / 簽名",
+          "top": 78,
+          "left": 294,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    }
+  },
+  "images": [],
+  "cjkfont": "tc"
+}

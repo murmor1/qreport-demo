@@ -1,0 +1,709 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Δελτίο αποστολής DA-2026-000456",
+    "author": "Παράδειγμα Τεχνολογίας Α.Ε."
+  },
+  "schemas": [
+    {
+      "name": "delivery",
+      "label": "Δελτίο αποστολής",
+      "type": "object",
+      "properties": {
+        "no": {
+          "name": "no",
+          "label": "No",
+          "type": "string",
+          "value": "DA-2026-000456",
+          "index": 0
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 1
+        },
+        "shipdate": {
+          "name": "shipdate",
+          "label": "Shipdate",
+          "type": "datetime",
+          "value": "2026-11-24",
+          "index": 2
+        },
+        "vehicle": {
+          "name": "vehicle",
+          "label": "Vehicle",
+          "type": "string",
+          "value": "ΙΚΑ 1234",
+          "index": 3
+        },
+        "driver": {
+          "name": "driver",
+          "label": "Driver",
+          "type": "string",
+          "value": "Γιώργος Παπαδόπουλος",
+          "index": 4
+        },
+        "seller": {
+          "name": "seller",
+          "label": "Seller",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Παράδειγμα Τεχνολογίας Α.Ε.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "Οδός Ερμού 12, 105 63 Αθήνα",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+30 210 000 0000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "EL123456789",
+              "index": 4
+            }
+          },
+          "index": 5
+        },
+        "customer": {
+          "name": "customer",
+          "label": "Customer",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Παπαδόπουλος & Συνεργάτες Ο.Ε.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "Λεωφόρος Τσιμισκή 45, 546 23 Θεσσαλονίκη",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+30 2310 000 000",
+              "index": 2
+            },
+            "taxoffice": {
+              "name": "taxoffice",
+              "label": "Taxoffice",
+              "type": "string",
+              "value": "",
+              "index": 3
+            },
+            "taxno": {
+              "name": "taxno",
+              "label": "Taxno",
+              "type": "string",
+              "value": "EL987654321",
+              "index": 4
+            }
+          },
+          "index": 6
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "code": {
+              "name": "code",
+              "label": "Code",
+              "type": "string",
+              "value": "EID-1001",
+              "index": 0
+            },
+            "description": {
+              "name": "description",
+              "label": "Description",
+              "type": "string",
+              "value": "Φορητός υπολογιστής",
+              "index": 1
+            },
+            "qty": {
+              "name": "qty",
+              "label": "Qty",
+              "type": "number",
+              "value": 2,
+              "index": 2
+            },
+            "unit": {
+              "name": "unit",
+              "label": "Unit",
+              "type": "string",
+              "value": "τεμ.",
+              "index": 3
+            }
+          },
+          "index": 7
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "delivery.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "no": "DA-2026-000456",
+        "date": "2026-11-23",
+        "shipdate": "2026-11-24",
+        "vehicle": "ΙΚΑ 1234",
+        "driver": "Γιώργος Παπαδόπουλος",
+        "seller": {
+          "name": "Παράδειγμα Τεχνολογίας Α.Ε.",
+          "address": "Οδός Ερμού 12, 105 63 Αθήνα",
+          "phone": "+30 210 000 0000",
+          "taxoffice": "",
+          "taxno": "EL123456789"
+        },
+        "customer": {
+          "name": "Παπαδόπουλος & Συνεργάτες Ο.Ε.",
+          "address": "Λεωφόρος Τσιμισκή 45, 546 23 Θεσσαλονίκη",
+          "phone": "+30 2310 000 000",
+          "taxoffice": "",
+          "taxno": "EL987654321"
+        },
+        "items": [
+          {
+            "code": "EID-1001",
+            "description": "Φορητός υπολογιστής",
+            "qty": 2,
+            "unit": "τεμ."
+          },
+          {
+            "code": "EID-1002",
+            "description": "Ασύρματο ποντίκι",
+            "qty": 5,
+            "unit": "τεμ."
+          },
+          {
+            "code": "EID-1003",
+            "description": "Άδεια λογισμικού (1 έτος)",
+            "qty": 3,
+            "unit": "τεμ."
+          },
+          {
+            "code": "EID-1004",
+            "description": "Υπηρεσία εγκατάστασης",
+            "qty": 6,
+            "unit": "ώρα"
+          },
+          {
+            "code": "EID-1005",
+            "description": "Τεχνικό βιβλίο",
+            "qty": 4,
+            "unit": "τεμ."
+          }
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 190,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 16,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.name",
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 22,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "value": "Παράδειγμα Τεχνολογίας Α.Ε."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.address",
+          "top": 24,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "Οδός Ερμού 12, 105 63 Αθήνα"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.seller.phone",
+          "top": 37,
+          "left": 0,
+          "width": 300,
+          "height": 13,
+          "value": "+30 210 000 0000"
+        },
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "ΔΕΛΤΙΟ ΑΠΟΣΤΟΛΗΣ",
+          "top": 0,
+          "left": 305,
+          "width": 235.9,
+          "height": 30,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)",
+          "halign": "right"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Αρ. δελτίου",
+          "top": 38,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.no",
+          "top": 38,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "DA-2026-000456"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Ημερομηνία",
+          "top": 52,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.date",
+          "format": "DD/MM/YYYY",
+          "top": 52,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-23"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Ημερομηνία αποστολής",
+          "top": 66,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "datetime",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.shipdate",
+          "format": "DD/MM/YYYY",
+          "top": 66,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "2026-11-24"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Όχημα",
+          "top": 80,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.vehicle",
+          "top": 80,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "ΙΚΑ 1234"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Οδηγός",
+          "top": 94,
+          "left": 341,
+          "width": 90,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.driver",
+          "top": 94,
+          "left": 431,
+          "width": 109.8,
+          "height": 14,
+          "halign": "right",
+          "value": "Γιώργος Παπαδόπουλος"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgb(245, 247, 250)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 100,
+          "left": 0,
+          "width": 320,
+          "height": 80
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "ΤΟΠΟΣ ΠΑΡΑΔΟΣΗΣ",
+          "top": 105,
+          "left": 8,
+          "width": 200,
+          "height": 12,
+          "bold": true,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 11,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.name",
+          "top": 118,
+          "left": 8,
+          "width": 304,
+          "height": 16,
+          "bold": true,
+          "value": "Παπαδόπουλος & Συνεργάτες Ο.Ε."
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.address",
+          "top": 136,
+          "left": 8,
+          "width": 304,
+          "height": 26,
+          "value": "Λεωφόρος Τσιμισκή 45, 546 23 Θεσσαλονίκη"
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "namespace": "delivery.customer.phone",
+          "top": 164,
+          "left": 8,
+          "width": 304,
+          "height": 12,
+          "value": "+30 2310 000 000"
+        },
+        {
+          "type": "barcode",
+          "format": "code128",
+          "namespace": "delivery.no",
+          "top": 120,
+          "left": 361,
+          "width": 179.8,
+          "height": 50,
+          "displaytext": true,
+          "fontsize": 8,
+          "value": "DA-2026-000456"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "delivery.items[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Κωδικός είδους",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].code",
+                  "value": "EID-1001"
+                }
+              },
+              {
+                "width": 52,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Περιγραφή",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].description",
+                  "value": "Φορητός υπολογιστής"
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Ποσ.",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "delivery.items[].qty",
+                  "format": "0,0",
+                  "locale": "el",
+                  "value": 2
+                }
+              },
+              {
+                "width": 15,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Μον.",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "delivery.items[].unit",
+                  "value": "τεμ."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "delivery.seller.name",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 12,
+            "fontcolor": "rgb(110, 110, 110)",
+            "value": "Παράδειγμα Τεχνολογίας Α.Ε."
+          },
+          {
+            "type": "pagenofm",
+            "format": "Σελίδα {N} από {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 110,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 0,
+          "width": 255,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Παρέδωσε",
+          "top": 26,
+          "left": 8,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Ονοματεπώνυμο / Υπογραφή",
+          "top": 78,
+          "left": 8,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "",
+          "bgcolor": "rgba(255, 255, 255, 0)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "top": 20,
+          "left": 286,
+          "width": 254.9,
+          "height": 76
+        },
+        {
+          "type": "string",
+          "fontsize": 9,
+          "fontname": "Liberation Sans",
+          "value": "Παρέλαβε",
+          "top": 26,
+          "left": 294,
+          "width": 240,
+          "height": 14,
+          "bold": true
+        },
+        {
+          "type": "string",
+          "fontsize": 8,
+          "fontname": "Liberation Sans",
+          "value": "Ονοματεπώνυμο / Υπογραφή",
+          "top": 78,
+          "left": 294,
+          "width": 240,
+          "height": 12,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    }
+  },
+  "images": []
+}

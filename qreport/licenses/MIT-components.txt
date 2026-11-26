@@ -1,0 +1,84 @@
+Third-party components distributed with QReport under the MIT License
+=====================================================================
+
+The following components are included in QReport (dist/qreport.js,
+dist/qreport.min.js, dist/qreport.css and related files). Each is
+licensed under the MIT License (components offered under a dual
+MIT / GPL license are used under the MIT option). The copyright notices
+below are taken from the components' own files.
+
+- jQuery 1.10.2
+  Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors
+  https://jquery.org/license
+
+- jQuery UI 1.11.4 (including the 22 jQuery UI themes)
+  Copyright 2015 jQuery Foundation and other contributors
+  https://jquery.org/license
+
+- jQuery UI Position 1.10.0
+  Copyright 2013 jQuery Foundation and other contributors
+  https://jquery.org/license
+
+- jQuery UI Layout 1.4.x (dual licensed GPL / MIT, used under MIT)
+  Copyright (c) 2014 Kevin Dalman (http://jquery-dev.com)
+  http://layout.jquery-dev.com/LICENSE.txt
+
+- jQuery contextMenu 1.6.6 (dual licensed MIT / GPL v3, used under MIT)
+  Authors: Rodney Rehm, Addy Osmani
+
+- WebUI Popover 1.2.17
+  Sandy Walker, https://github.com/sandywalker/webui-popover
+
+- jQuery Hotkeys 0.2.0 (dual licensed MIT / GPL v2, used under MIT)
+  Copyright 2010, John Resig
+
+- Moment.js 2.17.1
+  Authors: Tim Wood, Iskren Chernev, Moment.js contributors
+
+- Numeral.js 2.0.6
+  Author: Adam Draper
+
+- tinyColorPicker (colors.js, jqColorPicker.js)
+  Copyright (c) 2016 Peter Dematté (PitPik)
+  https://github.com/PitPik/tinyColorPicker
+
+- pdfmake 0.2.10 (separate bundle dist/qreport-pdf.js; full license text in
+  pdfmake-LICENSE.txt)
+
+- bwip-js 1.7.0 and BWIPP (separate bundle dist/qreport-barcode.js; full
+  license texts in bwip-js-LICENSE.txt and BWIPP-LICENSE.txt)
+
+
+MIT License
+-----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Other licenses in this distribution
+-----------------------------------
+
+- Silk icon set 1.3 by Mark James, http://www.famfamfam.com/lab/icons/silk/
+  Creative Commons Attribution 2.5 (https://creativecommons.org/licenses/by/2.5/)
+- Roboto font (inside dist/qreport-pdf.js): Apache License 2.0
+- Liberation fonts 2.1.5: SIL Open Font License 1.1 (dist/fonts/liberation/LICENSE)
+- Noto Sans SC / JP / KR / Devanagari: SIL Open Font License 1.1 (dist/fonts/noto/)
+- Inconsolata: SIL Open Font License 1.1 (Inconsolata-LICENSE.txt)
+- OCR-A / OCR-B fonts by Matthew Skala: free use including commercial
+  applications (https://tsukurimashou.org/ocr.php.en)

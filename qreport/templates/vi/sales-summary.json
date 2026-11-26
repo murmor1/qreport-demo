@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Tóm tắt doanh số"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "Doanh số",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "Đà Nẵng",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "Máy tính xách tay",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "Phần cứng",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 22500000,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 40000000,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "Đà Nẵng",
+          "product": "Máy tính xách tay",
+          "category": "Phần cứng",
+          "amount": 22500000,
+          "target": 40000000,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Hà Nội",
+          "product": "Bàn phím",
+          "category": "Phần cứng",
+          "amount": 35500000,
+          "target": 40000000,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Hải Phòng",
+          "product": "Phần mềm diệt virus",
+          "category": "Phần mềm",
+          "amount": 48500000,
+          "target": 40000000,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Hợp đồng bảo trì",
+          "category": "Dịch vụ",
+          "amount": 61500000,
+          "target": 40000000,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Đà Nẵng",
+          "product": "Bộ ứng dụng văn phòng",
+          "category": "Phần mềm",
+          "amount": 76500000,
+          "target": 40000000,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Hà Nội",
+          "product": "Cài đặt",
+          "category": "Dịch vụ",
+          "amount": 31000000,
+          "target": 40000000,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Hải Phòng",
+          "product": "Máy tính xách tay",
+          "category": "Phần cứng",
+          "amount": 44000000,
+          "target": 40000000,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Bàn phím",
+          "category": "Phần cứng",
+          "amount": 57000000,
+          "target": 40000000,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Đà Nẵng",
+          "product": "Hợp đồng bảo trì",
+          "category": "Dịch vụ",
+          "amount": 58250000,
+          "target": 40000000,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Hà Nội",
+          "product": "Màn hình",
+          "category": "Phần cứng",
+          "amount": 71250000,
+          "target": 40000000,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Hải Phòng",
+          "product": "Bộ ứng dụng văn phòng",
+          "category": "Phần mềm",
+          "amount": 25750000,
+          "target": 40000000,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Cài đặt",
+          "category": "Dịch vụ",
+          "amount": 38750000,
+          "target": 40000000,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Đà Nẵng",
+          "product": "Bàn phím",
+          "category": "Phần cứng",
+          "amount": 59250000,
+          "target": 40000000,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Hà Nội",
+          "product": "Phần mềm diệt virus",
+          "category": "Phần mềm",
+          "amount": 72250000,
+          "target": 40000000,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Hải Phòng",
+          "product": "Hợp đồng bảo trì",
+          "category": "Dịch vụ",
+          "amount": 85250000,
+          "target": 40000000,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Màn hình",
+          "category": "Phần cứng",
+          "amount": 39750000,
+          "target": 40000000,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Đà Nẵng",
+          "product": "Cài đặt",
+          "category": "Dịch vụ",
+          "amount": 43750000,
+          "target": 40000000,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Hà Nội",
+          "product": "Máy tính xách tay",
+          "category": "Phần cứng",
+          "amount": 56750000,
+          "target": 40000000,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Hải Phòng",
+          "product": "Bàn phím",
+          "category": "Phần cứng",
+          "amount": 69750000,
+          "target": 40000000,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Phần mềm diệt virus",
+          "category": "Phần mềm",
+          "amount": 82750000,
+          "target": 40000000,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Đà Nẵng",
+          "product": "Màn hình",
+          "category": "Phần cứng",
+          "amount": 100500000,
+          "target": 40000000,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Hà Nội",
+          "product": "Bộ ứng dụng văn phòng",
+          "category": "Phần mềm",
+          "amount": 55000000,
+          "target": 40000000,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Hải Phòng",
+          "product": "Cài đặt",
+          "category": "Dịch vụ",
+          "amount": 68000000,
+          "target": 40000000,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "TP. Hồ Chí Minh",
+          "product": "Máy tính xách tay",
+          "category": "Phần cứng",
+          "amount": 81000000,
+          "target": 40000000,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Tóm tắt doanh số",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "DD/MM/YYYY HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "vi",
+          "format": "0.[0]a",
+          "othertext": "Khác",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "Doanh số theo thành phố",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Số tiền",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "vi",
+          "format": "0.[0]a",
+          "othertext": "Khác",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "Tỷ trọng nhóm sản phẩm",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Số tiền"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "vi",
+          "format": "0.[0]a",
+          "othertext": "Khác",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "Doanh số theo tháng và mục tiêu",
+          "category": "month",
+          "categoryformat": "MM",
+          "language": "vietnamese",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Số tiền",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "Mục tiêu",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "Số lượng",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "vi",
+          "format": "0.[0]a",
+          "othertext": "Khác",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "Sản phẩm bán chạy nhất",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Số tiền",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Tháng",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "MM/YYYY",
+                  "language": "vi",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Thành phố",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "Đà Nẵng"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Sản phẩm",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "Máy tính xách tay"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Nhóm sản phẩm",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "Phần cứng"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Số tiền",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "vi",
+                  "value": 22500000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "vi",
+            "format": "0.[0]a",
+            "othertext": "Khác",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "Doanh số trang này",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "Số tiền",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "Trang {N} / {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Tổng",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "vi"
+        }
+      ]
+    }
+  },
+  "images": []
+}

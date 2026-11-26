@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Riepilogo vendite"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "Vendite",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "Milano",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "Portatile",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "Hardware",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 900,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 1600,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "Milano",
+          "product": "Portatile",
+          "category": "Hardware",
+          "amount": 900,
+          "target": 1600,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Napoli",
+          "product": "Tastiera",
+          "category": "Hardware",
+          "amount": 1420,
+          "target": 1600,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Roma",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 1940,
+          "target": 1600,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Torino",
+          "product": "Contratto di assistenza",
+          "category": "Servizi",
+          "amount": 2460,
+          "target": 1600,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Milano",
+          "product": "Suite per ufficio",
+          "category": "Software",
+          "amount": 3060,
+          "target": 1600,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Napoli",
+          "product": "Installazione",
+          "category": "Servizi",
+          "amount": 1240,
+          "target": 1600,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Roma",
+          "product": "Portatile",
+          "category": "Hardware",
+          "amount": 1760,
+          "target": 1600,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Torino",
+          "product": "Tastiera",
+          "category": "Hardware",
+          "amount": 2280,
+          "target": 1600,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Milano",
+          "product": "Contratto di assistenza",
+          "category": "Servizi",
+          "amount": 2330,
+          "target": 1600,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Napoli",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 2850,
+          "target": 1600,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Roma",
+          "product": "Suite per ufficio",
+          "category": "Software",
+          "amount": 1030,
+          "target": 1600,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Torino",
+          "product": "Installazione",
+          "category": "Servizi",
+          "amount": 1550,
+          "target": 1600,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Milano",
+          "product": "Tastiera",
+          "category": "Hardware",
+          "amount": 2370,
+          "target": 1600,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Napoli",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 2890,
+          "target": 1600,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Roma",
+          "product": "Contratto di assistenza",
+          "category": "Servizi",
+          "amount": 3410,
+          "target": 1600,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Torino",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 1590,
+          "target": 1600,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Milano",
+          "product": "Installazione",
+          "category": "Servizi",
+          "amount": 1750,
+          "target": 1600,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Napoli",
+          "product": "Portatile",
+          "category": "Hardware",
+          "amount": 2270,
+          "target": 1600,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Roma",
+          "product": "Tastiera",
+          "category": "Hardware",
+          "amount": 2790,
+          "target": 1600,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Torino",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 3310,
+          "target": 1600,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Milano",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 4020,
+          "target": 1600,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Napoli",
+          "product": "Suite per ufficio",
+          "category": "Software",
+          "amount": 2200,
+          "target": 1600,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Roma",
+          "product": "Installazione",
+          "category": "Servizi",
+          "amount": 2720,
+          "target": 1600,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Torino",
+          "product": "Portatile",
+          "category": "Hardware",
+          "amount": 3240,
+          "target": 1600,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Riepilogo vendite",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "DD/MM/YYYY HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "it",
+          "format": "0.[0]a",
+          "othertext": "Altro",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "Vendite per città",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Importo",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "it",
+          "format": "0.[0]a",
+          "othertext": "Altro",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "Quota per gruppo di prodotti",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Importo"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "it",
+          "format": "0.[0]a",
+          "othertext": "Altro",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "Vendite mensili e obiettivo",
+          "category": "month",
+          "categoryformat": "MMM",
+          "language": "italian",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Importo",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "Obiettivo",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "Unità",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "it",
+          "format": "0.[0]a",
+          "othertext": "Altro",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "Prodotti più venduti",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Importo",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Mese",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "MMM YYYY",
+                  "language": "it",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Città",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "Milano"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Prodotto",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "Portatile"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Gruppo di prodotti",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "Hardware"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Importo",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "it",
+                  "value": 900
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "it",
+            "format": "0.[0]a",
+            "othertext": "Altro",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "Vendite di questa pagina",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "Importo",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "Pagina {N} di {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Totale",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "it"
+        }
+      ]
+    }
+  },
+  "images": []
+}

@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "売上概要"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "売上",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "大阪",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "ノートPC",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "ハードウェア",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 135000,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 240000,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "大阪",
+          "product": "ノートPC",
+          "category": "ハードウェア",
+          "amount": 135000,
+          "target": 240000,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "札幌",
+          "product": "キーボード",
+          "category": "ハードウェア",
+          "amount": 213000,
+          "target": 240000,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "東京",
+          "product": "ウイルス対策",
+          "category": "ソフトウェア",
+          "amount": 291000,
+          "target": 240000,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "福岡",
+          "product": "保守契約",
+          "category": "サービス",
+          "amount": 369000,
+          "target": 240000,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "大阪",
+          "product": "オフィスソフト",
+          "category": "ソフトウェア",
+          "amount": 459000,
+          "target": 240000,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "札幌",
+          "product": "設置作業",
+          "category": "サービス",
+          "amount": 186000,
+          "target": 240000,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "東京",
+          "product": "ノートPC",
+          "category": "ハードウェア",
+          "amount": 264000,
+          "target": 240000,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "福岡",
+          "product": "キーボード",
+          "category": "ハードウェア",
+          "amount": 342000,
+          "target": 240000,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "大阪",
+          "product": "保守契約",
+          "category": "サービス",
+          "amount": 349500,
+          "target": 240000,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "札幌",
+          "product": "モニター",
+          "category": "ハードウェア",
+          "amount": 427500,
+          "target": 240000,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "東京",
+          "product": "オフィスソフト",
+          "category": "ソフトウェア",
+          "amount": 154500,
+          "target": 240000,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "福岡",
+          "product": "設置作業",
+          "category": "サービス",
+          "amount": 232500,
+          "target": 240000,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "大阪",
+          "product": "キーボード",
+          "category": "ハードウェア",
+          "amount": 355500,
+          "target": 240000,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "札幌",
+          "product": "ウイルス対策",
+          "category": "ソフトウェア",
+          "amount": 433500,
+          "target": 240000,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "東京",
+          "product": "保守契約",
+          "category": "サービス",
+          "amount": 511500,
+          "target": 240000,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "福岡",
+          "product": "モニター",
+          "category": "ハードウェア",
+          "amount": 238500,
+          "target": 240000,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "大阪",
+          "product": "設置作業",
+          "category": "サービス",
+          "amount": 262500,
+          "target": 240000,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "札幌",
+          "product": "ノートPC",
+          "category": "ハードウェア",
+          "amount": 340500,
+          "target": 240000,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "東京",
+          "product": "キーボード",
+          "category": "ハードウェア",
+          "amount": 418500,
+          "target": 240000,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "福岡",
+          "product": "ウイルス対策",
+          "category": "ソフトウェア",
+          "amount": 496500,
+          "target": 240000,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "大阪",
+          "product": "モニター",
+          "category": "ハードウェア",
+          "amount": 603000,
+          "target": 240000,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "札幌",
+          "product": "オフィスソフト",
+          "category": "ソフトウェア",
+          "amount": 330000,
+          "target": 240000,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "東京",
+          "product": "設置作業",
+          "category": "サービス",
+          "amount": 408000,
+          "target": 240000,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "福岡",
+          "product": "ノートPC",
+          "category": "ハードウェア",
+          "amount": 486000,
+          "target": 240000,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "売上概要",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "YYYY/MM/DD HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ja",
+          "format": "0.[0]a",
+          "othertext": "その他",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "都市別売上",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "金額",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ja",
+          "format": "0.[0]a",
+          "othertext": "その他",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "製品グループ別構成比",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "金額"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ja",
+          "format": "0.[0]a",
+          "othertext": "その他",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "月別売上と目標",
+          "category": "month",
+          "categoryformat": "M月",
+          "language": "japanese",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "金額",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "目標",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "数量",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ja",
+          "format": "0.[0]a",
+          "othertext": "その他",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "売れ筋製品",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "金額",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "月",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "YYYY年M月",
+                  "language": "ja",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "都市",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "大阪"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "製品",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "ノートPC"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "製品グループ",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "ハードウェア"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "金額",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "ja",
+                  "value": 135000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "ja",
+            "format": "0.[0]a",
+            "othertext": "その他",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "このページの売上",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "金額",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "{N} / {M} ページ",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "合計",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "ja"
+        }
+      ]
+    }
+  },
+  "images": []
+}

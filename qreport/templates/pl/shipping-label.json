@@ -1,0 +1,421 @@
+{
+  "version": 2,
+  "size": "A6",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 14.17,
+    "right": 14.17,
+    "bottom": 14.17,
+    "left": 14.17
+  },
+  "info": {
+    "title": "Etykieta wysyłkowa 00340434161234567890"
+  },
+  "schemas": [
+    {
+      "name": "shipment",
+      "label": "Przesyłka",
+      "type": "object",
+      "properties": {
+        "tracking": {
+          "name": "tracking",
+          "label": "Tracking",
+          "type": "string",
+          "value": "00340434161234567890",
+          "index": 0
+        },
+        "service": {
+          "name": "service",
+          "label": "Service",
+          "type": "string",
+          "value": "EXPRESS",
+          "index": 1
+        },
+        "date": {
+          "name": "date",
+          "label": "Date",
+          "type": "datetime",
+          "value": "2026-11-23",
+          "index": 2
+        },
+        "weight": {
+          "name": "weight",
+          "label": "Weight",
+          "type": "number",
+          "value": 2.5,
+          "index": 3
+        },
+        "pieces": {
+          "name": "pieces",
+          "label": "Pieces",
+          "type": "number",
+          "value": 1,
+          "index": 4
+        },
+        "sender": {
+          "name": "sender",
+          "label": "Sender",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Przykład Technologie Sp. z o.o.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "ul. Marszałkowska 12, 00-001 Warszawa",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+48 22 000 00 00",
+              "index": 2
+            }
+          },
+          "index": 5
+        },
+        "recipient": {
+          "name": "recipient",
+          "label": "Recipient",
+          "type": "object",
+          "properties": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Kowalski i Wspólnicy Sp. j.",
+              "index": 0
+            },
+            "address": {
+              "name": "address",
+              "label": "Address",
+              "type": "string",
+              "value": "ul. Floriańska 45, 31-019 Kraków",
+              "index": 1
+            },
+            "city": {
+              "name": "city",
+              "label": "City",
+              "type": "string",
+              "value": "KRAKÓW",
+              "index": 2
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+48 12 000 00 00",
+              "index": 3
+            }
+          },
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "shipment.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": {
+        "tracking": "00340434161234567890",
+        "service": "EXPRESS",
+        "date": "2026-11-23",
+        "weight": 2.5,
+        "pieces": 1,
+        "sender": {
+          "name": "Przykład Technologie Sp. z o.o.",
+          "address": "ul. Marszałkowska 12, 00-001 Warszawa",
+          "phone": "+48 22 000 00 00"
+        },
+        "recipient": {
+          "name": "Kowalski i Wspólnicy Sp. j.",
+          "address": "ul. Floriańska 45, 31-019 Kraków",
+          "city": "KRAKÓW",
+          "phone": "+48 12 000 00 00"
+        }
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 0,
+      "fields": []
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 340,
+        "fields": [
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "NADAWCA",
+            "top": 0,
+            "left": 0,
+            "width": 180,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.sender.name",
+            "top": 10,
+            "left": 0,
+            "width": 190,
+            "height": 11,
+            "bold": true,
+            "value": "Przykład Technologie Sp. z o.o."
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.sender.address",
+            "top": 21,
+            "left": 0,
+            "width": 190,
+            "height": 20,
+            "value": "ul. Marszałkowska 12, 00-001 Warszawa"
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.sender.phone",
+            "top": 41,
+            "left": 0,
+            "width": 190,
+            "height": 10,
+            "value": "+48 22 000 00 00"
+          },
+          {
+            "type": "string",
+            "fontsize": 11,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.service",
+            "top": 2,
+            "left": 199,
+            "width": 70,
+            "height": 30,
+            "bold": true,
+            "fontcolor": "rgb(255, 255, 255)",
+            "bgcolor": "rgb(0, 0, 0)",
+            "halign": "center",
+            "valign": "middle",
+            "value": "EXPRESS"
+          },
+          {
+            "type": "line",
+            "thickness": 1.5,
+            "top": 56,
+            "left": 0,
+            "width": 269
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "ODBIORCA",
+            "top": 62,
+            "left": 0,
+            "width": 180,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "string",
+            "fontsize": 13,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.recipient.name",
+            "top": 73,
+            "left": 0,
+            "width": 269,
+            "height": 18,
+            "bold": true,
+            "value": "Kowalski i Wspólnicy Sp. j."
+          },
+          {
+            "type": "string",
+            "fontsize": 10,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.recipient.address",
+            "top": 93,
+            "left": 0,
+            "width": 269,
+            "height": 30,
+            "value": "ul. Floriańska 45, 31-019 Kraków"
+          },
+          {
+            "type": "string",
+            "fontsize": 17,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.recipient.city",
+            "top": 125,
+            "left": 0,
+            "width": 269,
+            "height": 22,
+            "bold": true,
+            "value": "KRAKÓW"
+          },
+          {
+            "type": "string",
+            "fontsize": 8,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.recipient.phone",
+            "top": 149,
+            "left": 0,
+            "width": 269,
+            "height": 12,
+            "value": "+48 12 000 00 00"
+          },
+          {
+            "type": "line",
+            "thickness": 1.5,
+            "top": 166,
+            "left": 0,
+            "width": 269
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "Nr przesyłki",
+            "top": 172,
+            "left": 0,
+            "width": 180,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "barcode",
+            "format": "code128",
+            "namespace": "shipment.tracking",
+            "top": 184,
+            "left": 0,
+            "width": 269,
+            "height": 70,
+            "displaytext": true,
+            "fontsize": 9,
+            "value": "00340434161234567890"
+          },
+          {
+            "type": "line",
+            "thickness": 1.5,
+            "top": 262,
+            "left": 0,
+            "width": 269
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "Waga",
+            "top": 268,
+            "left": 0,
+            "width": 90,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "string",
+            "fontsize": 12,
+            "fontname": "Liberation Sans",
+            "formula": "FORMAT([shipment.weight], \"0.0\") & \" kg\"",
+            "top": 279,
+            "left": 0,
+            "width": 90,
+            "height": 16,
+            "bold": true
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "Paczki",
+            "top": 298,
+            "left": 0,
+            "width": 90,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "number",
+            "fontsize": 12,
+            "fontname": "Liberation Sans",
+            "halign": "left",
+            "namespace": "shipment.pieces",
+            "format": "0",
+            "top": 309,
+            "left": 0,
+            "width": 90,
+            "height": 16,
+            "bold": true,
+            "value": 1
+          },
+          {
+            "type": "string",
+            "fontsize": 7,
+            "fontname": "Liberation Sans",
+            "value": "Data",
+            "top": 268,
+            "left": 95,
+            "width": 90,
+            "height": 10,
+            "bold": true,
+            "fontcolor": "rgb(110, 110, 110)"
+          },
+          {
+            "type": "datetime",
+            "fontsize": 10,
+            "fontname": "Liberation Sans",
+            "namespace": "shipment.date",
+            "format": "DD.MM.YYYY",
+            "top": 279,
+            "left": 95,
+            "width": 100,
+            "height": 16,
+            "value": "2026-11-23"
+          },
+          {
+            "type": "barcode",
+            "format": "qrcode",
+            "namespace": "shipment.tracking",
+            "top": 268,
+            "left": 209,
+            "width": 60,
+            "height": 60,
+            "value": "00340434161234567890"
+          }
+        ]
+      },
+      "footer": {
+        "height": 0,
+        "fields": []
+      }
+    },
+    "footer": {
+      "height": 0,
+      "fields": []
+    }
+  },
+  "images": []
+}

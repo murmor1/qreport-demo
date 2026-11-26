@@ -1,0 +1,452 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Lista clienților"
+  },
+  "schemas": [
+    {
+      "name": "customers",
+      "label": "Clienți",
+      "type": "array",
+      "items": {
+        "name": {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "value": "Maria Popescu",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "București",
+          "index": 1
+        },
+        "phone": {
+          "name": "phone",
+          "label": "Phone",
+          "type": "string",
+          "value": "+40 723000000",
+          "index": 2
+        },
+        "email": {
+          "name": "email",
+          "label": "Email",
+          "type": "string",
+          "value": "maria.popescu@example.com",
+          "index": 3
+        },
+        "balance": {
+          "name": "balance",
+          "label": "Balance",
+          "type": "number",
+          "value": 1000,
+          "index": 4
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "customers.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "name": "Maria Popescu",
+          "city": "București",
+          "phone": "+40 723000000",
+          "email": "maria.popescu@example.com",
+          "balance": 1000
+        },
+        {
+          "name": "Andrei Ionescu",
+          "city": "Cluj-Napoca",
+          "phone": "+40 723007919",
+          "email": "andrei.ionescu@example.com",
+          "balance": 1873.35
+        },
+        {
+          "name": "Elena Popa",
+          "city": "Iași",
+          "phone": "+40 723015838",
+          "email": "elena.popa@example.com",
+          "balance": 2746.7
+        },
+        {
+          "name": "Mihai Dumitru",
+          "city": "Timișoara",
+          "phone": "+40 723023757",
+          "email": "mihai.dumitru@example.com",
+          "balance": 3620.05
+        },
+        {
+          "name": "Ioana Stan",
+          "city": "București",
+          "phone": "+40 723031676",
+          "email": "ioana.stan@example.com",
+          "balance": 4493.4
+        },
+        {
+          "name": "Alexandru Stoica",
+          "city": "Cluj-Napoca",
+          "phone": "+40 723039595",
+          "email": "alexandru.stoica@example.com",
+          "balance": 5366.75
+        },
+        {
+          "name": "Ana Gheorghe",
+          "city": "Iași",
+          "phone": "+40 723047514",
+          "email": "ana.gheorghe@example.com",
+          "balance": 6240.1
+        },
+        {
+          "name": "Cristian Matei",
+          "city": "Timișoara",
+          "phone": "+40 723055433",
+          "email": "cristian.matei@example.com",
+          "balance": 7113.45
+        },
+        {
+          "name": "Gabriela Constantin",
+          "city": "București",
+          "phone": "+40 723063352",
+          "email": "gabriela.constantin@example.com",
+          "balance": 7986.8
+        },
+        {
+          "name": "Florin Marin",
+          "city": "Cluj-Napoca",
+          "phone": "+40 723071271",
+          "email": "florin.marin@example.com",
+          "balance": 8860.15
+        },
+        {
+          "name": "Raluca Dinu",
+          "city": "Iași",
+          "phone": "+40 723079190",
+          "email": "raluca.dinu@example.com",
+          "balance": 9733.5
+        },
+        {
+          "name": "Bogdan Tudor",
+          "city": "Timișoara",
+          "phone": "+40 723087109",
+          "email": "bogdan.tudor@example.com",
+          "balance": 10606.85
+        }
+      ]
+    },
+    {
+      "name": "customers_by_city",
+      "label": "Clienți / Oraș",
+      "type": "array",
+      "items": {
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "București",
+          "index": 0
+        },
+        "count": {
+          "name": "count",
+          "label": "Count",
+          "type": "number",
+          "value": 3,
+          "index": 1
+        },
+        "items": {
+          "name": "items",
+          "label": "Items",
+          "type": "array",
+          "items": {
+            "name": {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "value": "Gabriela Constantin",
+              "index": 0
+            },
+            "city": {
+              "name": "city",
+              "label": "City",
+              "type": "string",
+              "value": "București",
+              "index": 1
+            },
+            "phone": {
+              "name": "phone",
+              "label": "Phone",
+              "type": "string",
+              "value": "+40 723063352",
+              "index": 2
+            },
+            "email": {
+              "name": "email",
+              "label": "Email",
+              "type": "string",
+              "value": "gabriela.constantin@example.com",
+              "index": 3
+            },
+            "balance": {
+              "name": "balance",
+              "label": "Balance",
+              "type": "number",
+              "value": 7986.8,
+              "index": 4
+            }
+          },
+          "index": 2
+        }
+      },
+      "index": 1,
+      "group": {
+        "path": "customers[]",
+        "by": [
+          "city"
+        ],
+        "order": "asc",
+        "sortby": "name",
+        "sortdir": "asc"
+      }
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 44,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Lista clienților",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "DD.MM.YYYY HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "customers_by_city[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 18,
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Oraș",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 10,
+                  "fontname": "Liberation Sans",
+                  "namespace": "customers_by_city[].city",
+                  "bold": true,
+                  "value": "București"
+                }
+              },
+              {
+                "width": 82,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Client / Telefon / Sold",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "table",
+                  "namespace": "customers_by_city[].items[]",
+                  "showheader": false,
+                  "rowheight": 16,
+                  "footeractive": true,
+                  "footerheight": 16,
+                  "alternateactive": true,
+                  "alternatebgcolor": "rgb(245, 247, 250)",
+                  "rowborderstyle": "solid",
+                  "rowborderwidth": "1px",
+                  "rowbordercolor": "rgb(205, 212, 222)",
+                  "alternateborderstyle": "solid",
+                  "alternateborderwidth": "1px",
+                  "alternatebordercolor": "rgb(205, 212, 222)",
+                  "footerborderstyle": "solid",
+                  "footerborderwidth": "1px",
+                  "footerbordercolor": "rgb(205, 212, 222)",
+                  "columns": [
+                    {
+                      "width": 30,
+                      "cell": {
+                        "type": "string",
+                        "fontsize": 9,
+                        "fontname": "Liberation Sans",
+                        "namespace": "customers_by_city[].items[].name",
+                        "value": "Gabriela Constantin"
+                      },
+                      "footer": {
+                        "type": "string",
+                        "fontsize": 9,
+                        "fontname": "Liberation Sans",
+                        "formula": "[count] & \" clienți\"",
+                        "fontcolor": "rgb(110, 110, 110)"
+                      }
+                    },
+                    {
+                      "width": 22,
+                      "cell": {
+                        "type": "string",
+                        "fontsize": 9,
+                        "fontname": "Liberation Sans",
+                        "namespace": "customers_by_city[].items[].phone",
+                        "value": "+40 723063352"
+                      }
+                    },
+                    {
+                      "width": 30,
+                      "cell": {
+                        "type": "string",
+                        "fontsize": 7.5,
+                        "fontname": "Liberation Sans",
+                        "namespace": "customers_by_city[].items[].email",
+                        "fontcolor": "rgb(110, 110, 110)",
+                        "value": "gabriela.constantin@example.com"
+                      }
+                    },
+                    {
+                      "width": 18,
+                      "cell": {
+                        "type": "number",
+                        "fontsize": 9,
+                        "fontname": "Liberation Sans",
+                        "halign": "right",
+                        "namespace": "customers_by_city[].items[].balance",
+                        "format": "0,0.00",
+                        "locale": "ro",
+                        "value": 7986.8
+                      },
+                      "footer": {
+                        "type": "number",
+                        "fontsize": 9,
+                        "fontname": "Liberation Sans",
+                        "halign": "right",
+                        "aggregate": "sum",
+                        "namespace": "customers_by_city[].items[].balance",
+                        "bold": true,
+                        "format": "0,0.00",
+                        "locale": "ro"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 24,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "pagenofm",
+            "format": "Pagina {N} din {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Sold total",
+          "top": 8,
+          "left": 301,
+          "width": 140,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "customers[].balance",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0.00",
+          "locale": "ro"
+        }
+      ]
+    }
+  },
+  "images": []
+}

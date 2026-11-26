@@ -1,0 +1,103 @@
+QReport Commercial License
+Version 1.0 (DRAFT - to be reviewed by a lawyer before use)
+
+Copyright (c) 2018-2026 Murat Morgül. All rights reserved.
+
+This is a legal agreement between you (the "Licensee") and the copyright
+holder (the "Licensor") for the QReport software, including its source code,
+compiled files, documentation and examples (the "Software"). By downloading,
+installing, copying or using the Software you agree to the terms of this
+license. If you do not agree, do not use the Software.
+
+If you obtained the Software through a marketplace that applies its own
+license terms (for example Envato / CodeCanyon), those marketplace terms
+govern your purchase and take precedence over this document where they
+differ.
+
+1. DEFINITIONS
+
+   "License Type" means the type of license you purchased (for example
+   Single, Extended or Developer), as stated on your receipt or the store
+   page at the time of purchase.
+
+   "End Product" means a website, web application or software product
+   created by the Licensee in which the Software is embedded as one
+   component and which provides substantial added value beyond the
+   Software itself.
+
+2. GRANT OF LICENSE
+
+   Subject to payment of the applicable fee and to the terms of this
+   license, the Licensor grants the Licensee a non-exclusive,
+   non-transferable, worldwide license to:
+
+   a) use the Software to create End Products, within the limits of the
+      purchased License Type (for example the number of End Products,
+      domains or developers stated at purchase);
+   b) modify the Software for use in those End Products;
+   c) distribute the Software only as an integrated part of an End Product,
+      in compiled or minified form where reasonably possible.
+
+3. RESTRICTIONS
+
+   The Licensee may NOT:
+
+   a) sell, resell, sublicense, rent, lease or give away the Software, or
+      any modified version of it, on its own or as a stand-alone product;
+   b) use the Software to create a product that competes with the Software
+      (for example another report designer component or library offered to
+      developers);
+   c) publish the source code of the Software, or make it available in a
+      public repository or under an open-source license;
+   d) remove or alter copyright notices, license headers or the
+      THIRD-PARTY.md file;
+   e) use the Software beyond the limits of the purchased License Type.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software includes third-party components (libraries, fonts and
+   icons) that are licensed under their own terms (MIT, SIL Open Font
+   License, Apache 2.0, Creative Commons Attribution and others). These
+   components are listed, with their licenses and required attributions,
+   in THIRD-PARTY.md and in the "licenses" folder of the distribution.
+   Nothing in this license restricts your rights under those licenses for
+   the respective components.
+
+5. OWNERSHIP
+
+   The Software is licensed, not sold. The Licensor retains all rights,
+   title and interest in the Software not expressly granted in this
+   license.
+
+6. UPDATES AND SUPPORT
+
+   Updates and support, if any, are provided as described on the store
+   page at the time of purchase. The Licensor is not obliged to provide
+   updates or support beyond what was stated at purchase.
+
+7. TERMINATION
+
+   This license terminates automatically if the Licensee breaches any of
+   its terms. Upon termination the Licensee must stop using the Software
+   and destroy all copies, except copies already distributed to end users
+   as part of an End Product in compliance with this license.
+
+8. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+9. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE. TO THE EXTENT PERMITTED BY LAW, THE LICENSOR'S
+   TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID FOR THE LICENSE.
+
+10. GOVERNING LAW
+
+   [To be completed: governing law and place of jurisdiction.]
+
+Contact: [To be completed: support / licensing contact address.]

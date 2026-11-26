@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "size": "A4",
+  "orientation": "Portrait",
+  "margins": {
+    "top": 28.35,
+    "right": 28.35,
+    "bottom": 28.35,
+    "left": 28.35
+  },
+  "info": {
+    "title": "Rezumatul vânzărilor"
+  },
+  "schemas": [
+    {
+      "name": "sales",
+      "label": "Vânzări",
+      "type": "array",
+      "items": {
+        "month": {
+          "name": "month",
+          "label": "Month",
+          "type": "datetime",
+          "value": "2026-01-01",
+          "index": 0
+        },
+        "city": {
+          "name": "city",
+          "label": "City",
+          "type": "string",
+          "value": "București",
+          "index": 1
+        },
+        "product": {
+          "name": "product",
+          "label": "Product",
+          "type": "string",
+          "value": "Laptop",
+          "index": 2
+        },
+        "category": {
+          "name": "category",
+          "label": "Category",
+          "type": "string",
+          "value": "Hardware",
+          "index": 3
+        },
+        "amount": {
+          "name": "amount",
+          "label": "Amount",
+          "type": "number",
+          "value": 4500,
+          "index": 4
+        },
+        "target": {
+          "name": "target",
+          "label": "Target",
+          "type": "number",
+          "value": 8000,
+          "index": 5
+        },
+        "units": {
+          "name": "units",
+          "label": "Units",
+          "type": "number",
+          "value": 12,
+          "index": 6
+        }
+      },
+      "index": 0,
+      "file": {
+        "name": "sales.json",
+        "type": "json",
+        "embed": true
+      },
+      "data": [
+        {
+          "month": "2026-01-01",
+          "city": "București",
+          "product": "Laptop",
+          "category": "Hardware",
+          "amount": 4500,
+          "target": 8000,
+          "units": 12
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Cluj-Napoca",
+          "product": "Tastatură",
+          "category": "Hardware",
+          "amount": 7100,
+          "target": 8000,
+          "units": 21
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Iași",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 9700,
+          "target": 8000,
+          "units": 30
+        },
+        {
+          "month": "2026-01-01",
+          "city": "Timișoara",
+          "product": "Contract de mentenanță",
+          "category": "Servicii",
+          "amount": 12300,
+          "target": 8000,
+          "units": 18
+        },
+        {
+          "month": "2026-02-01",
+          "city": "București",
+          "product": "Suită de birou",
+          "category": "Software",
+          "amount": 15300,
+          "target": 8000,
+          "units": 27
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Cluj-Napoca",
+          "product": "Instalare",
+          "category": "Servicii",
+          "amount": 6200,
+          "target": 8000,
+          "units": 15
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Iași",
+          "product": "Laptop",
+          "category": "Hardware",
+          "amount": 8800,
+          "target": 8000,
+          "units": 24
+        },
+        {
+          "month": "2026-02-01",
+          "city": "Timișoara",
+          "product": "Tastatură",
+          "category": "Hardware",
+          "amount": 11400,
+          "target": 8000,
+          "units": 12
+        },
+        {
+          "month": "2026-03-01",
+          "city": "București",
+          "product": "Contract de mentenanță",
+          "category": "Servicii",
+          "amount": 11650,
+          "target": 8000,
+          "units": 21
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Cluj-Napoca",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 14250,
+          "target": 8000,
+          "units": 30
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Iași",
+          "product": "Suită de birou",
+          "category": "Software",
+          "amount": 5150,
+          "target": 8000,
+          "units": 18
+        },
+        {
+          "month": "2026-03-01",
+          "city": "Timișoara",
+          "product": "Instalare",
+          "category": "Servicii",
+          "amount": 7750,
+          "target": 8000,
+          "units": 27
+        },
+        {
+          "month": "2026-04-01",
+          "city": "București",
+          "product": "Tastatură",
+          "category": "Hardware",
+          "amount": 11850,
+          "target": 8000,
+          "units": 15
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Cluj-Napoca",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 14450,
+          "target": 8000,
+          "units": 24
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Iași",
+          "product": "Contract de mentenanță",
+          "category": "Servicii",
+          "amount": 17050,
+          "target": 8000,
+          "units": 12
+        },
+        {
+          "month": "2026-04-01",
+          "city": "Timișoara",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 7950,
+          "target": 8000,
+          "units": 21
+        },
+        {
+          "month": "2026-05-01",
+          "city": "București",
+          "product": "Instalare",
+          "category": "Servicii",
+          "amount": 8750,
+          "target": 8000,
+          "units": 30
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Cluj-Napoca",
+          "product": "Laptop",
+          "category": "Hardware",
+          "amount": 11350,
+          "target": 8000,
+          "units": 18
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Iași",
+          "product": "Tastatură",
+          "category": "Hardware",
+          "amount": 13950,
+          "target": 8000,
+          "units": 27
+        },
+        {
+          "month": "2026-05-01",
+          "city": "Timișoara",
+          "product": "Antivirus",
+          "category": "Software",
+          "amount": 16550,
+          "target": 8000,
+          "units": 15
+        },
+        {
+          "month": "2026-06-01",
+          "city": "București",
+          "product": "Monitor",
+          "category": "Hardware",
+          "amount": 20100,
+          "target": 8000,
+          "units": 24
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Cluj-Napoca",
+          "product": "Suită de birou",
+          "category": "Software",
+          "amount": 11000,
+          "target": 8000,
+          "units": 12
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Iași",
+          "product": "Instalare",
+          "category": "Servicii",
+          "amount": 13600,
+          "target": 8000,
+          "units": 21
+        },
+        {
+          "month": "2026-06-01",
+          "city": "Timișoara",
+          "product": "Laptop",
+          "category": "Hardware",
+          "amount": 16200,
+          "target": 8000,
+          "units": 30
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "header": {
+      "height": 450,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 20,
+          "fontname": "Liberation Sans",
+          "value": "Rezumatul vânzărilor",
+          "top": 0,
+          "left": 0,
+          "width": 360,
+          "height": 26,
+          "bold": true,
+          "fontcolor": "rgb(31, 73, 125)"
+        },
+        {
+          "type": "reportdatetime",
+          "format": "DD.MM.YYYY HH:mm",
+          "top": 28,
+          "left": 0,
+          "width": 200,
+          "height": 12,
+          "fontsize": 8,
+          "fontcolor": "rgb(110, 110, 110)"
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ro",
+          "format": "0.[0]a",
+          "othertext": "Altele",
+          "top": 50,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "bar",
+          "title": "Vânzări pe orașe",
+          "category": "city",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Sumă",
+              "color": "#2f6db5"
+            }
+          ],
+          "sort": "valuedesc",
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ro",
+          "format": "0.[0]a",
+          "othertext": "Altele",
+          "top": 50,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "donut",
+          "title": "Ponderea grupelor de produse",
+          "category": "category",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Sumă"
+            }
+          ],
+          "showvalues": true
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ro",
+          "format": "0.[0]a",
+          "othertext": "Altele",
+          "top": 250,
+          "left": 0,
+          "width": 265,
+          "height": 190,
+          "charttype": "area",
+          "title": "Vânzări lunare și țintă",
+          "category": "month",
+          "categoryformat": "MMM",
+          "language": "romanian",
+          "timeaxis": true,
+          "format2": "0,0",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Sumă",
+              "color": "#2f6db5"
+            },
+            {
+              "field": "target",
+              "label": "Țintă",
+              "color": "#d64550",
+              "type": "line"
+            },
+            {
+              "field": "units",
+              "label": "Bucăți",
+              "color": "#f28c28",
+              "type": "line",
+              "axis": "right"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "namespace": "sales[]",
+          "aggregate": "sum",
+          "fontsize": 7.5,
+          "fontname": "Liberation Sans",
+          "fontcolor": "rgb(51, 51, 51)",
+          "borderstyle": "solid",
+          "borderwidth": "1px",
+          "bordercolor": "rgb(205, 212, 222)",
+          "legend": "auto",
+          "locale": "ro",
+          "format": "0.[0]a",
+          "othertext": "Altele",
+          "top": 250,
+          "left": 276,
+          "width": 264.9,
+          "height": 190,
+          "charttype": "hbar",
+          "title": "Cele mai vândute produse",
+          "category": "product",
+          "series": [
+            {
+              "field": "amount",
+              "label": "Sumă",
+              "color": "#2ca58d"
+            }
+          ],
+          "sort": "valuedesc",
+          "limit": 5,
+          "showvalues": true
+        }
+      ]
+    },
+    "page": {
+      "header": {
+        "height": 0,
+        "fields": []
+      },
+      "body": {
+        "height": 46,
+        "fields": [
+          {
+            "type": "table",
+            "namespace": "sales[]",
+            "top": 0,
+            "left": 0,
+            "width": 540.9,
+            "height": 40,
+            "showheader": true,
+            "headerheight": 20,
+            "rowheight": 16,
+            "alternateactive": true,
+            "alternatebgcolor": "rgb(245, 247, 250)",
+            "headerbgcolor": "rgb(31, 73, 125)",
+            "headerborderstyle": "solid",
+            "headerborderwidth": "1px",
+            "headerbordercolor": "rgb(31, 73, 125)",
+            "rowborderstyle": "solid",
+            "rowborderwidth": "1px",
+            "rowbordercolor": "rgb(205, 212, 222)",
+            "alternateborderstyle": "solid",
+            "alternateborderwidth": "1px",
+            "alternatebordercolor": "rgb(205, 212, 222)",
+            "columns": [
+              {
+                "width": 16,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Luna",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "datetime",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].month",
+                  "format": "MMM YYYY",
+                  "language": "ro",
+                  "value": "2026-01-01"
+                }
+              },
+              {
+                "width": 20,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Oraș",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].city",
+                  "value": "București"
+                }
+              },
+              {
+                "width": 28,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Produs",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].product",
+                  "value": "Laptop"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Grupă de produse",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)"
+                },
+                "cell": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "namespace": "sales[].category",
+                  "value": "Hardware"
+                }
+              },
+              {
+                "width": 18,
+                "header": {
+                  "type": "string",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "value": "Sumă",
+                  "bold": true,
+                  "fontcolor": "rgb(255, 255, 255)",
+                  "halign": "right"
+                },
+                "cell": {
+                  "type": "number",
+                  "fontsize": 9,
+                  "fontname": "Liberation Sans",
+                  "halign": "right",
+                  "namespace": "sales[].amount",
+                  "format": "0,0",
+                  "locale": "ro",
+                  "value": 4500
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "height": 96,
+        "fields": [
+          {
+            "type": "line",
+            "thickness": 0.5,
+            "top": 2,
+            "left": 0,
+            "width": 540.9
+          },
+          {
+            "type": "chart",
+            "namespace": "sales[]",
+            "aggregate": "sum",
+            "fontsize": 6.5,
+            "fontname": "Liberation Sans",
+            "fontcolor": "rgb(51, 51, 51)",
+            "borderstyle": "none",
+            "borderwidth": 0,
+            "bordercolor": "rgb(205, 212, 222)",
+            "legend": "none",
+            "locale": "ro",
+            "format": "0.[0]a",
+            "othertext": "Altele",
+            "top": 8,
+            "left": 0,
+            "width": 300,
+            "height": 84,
+            "charttype": "bar",
+            "title": "Vânzări pe această pagină",
+            "category": "city",
+            "series": [
+              {
+                "field": "amount",
+                "label": "Sumă",
+                "color": "#2ca58d"
+              }
+            ],
+            "pagescope": "page",
+            "showvalues": true
+          },
+          {
+            "type": "pagenofm",
+            "format": "Pagina {N} din {M}",
+            "top": 8,
+            "left": 391,
+            "width": 149.8,
+            "height": 12,
+            "fontsize": 8,
+            "fontcolor": "rgb(110, 110, 110)",
+            "halign": "right"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "height": 30,
+      "fields": [
+        {
+          "type": "string",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "value": "Total",
+          "top": 8,
+          "left": 341,
+          "width": 100,
+          "height": 16,
+          "bold": true
+        },
+        {
+          "type": "number",
+          "fontsize": 10,
+          "fontname": "Liberation Sans",
+          "halign": "right",
+          "aggregate": "sum",
+          "namespace": "sales[].amount",
+          "top": 8,
+          "left": 441,
+          "width": 99.8,
+          "height": 16,
+          "bold": true,
+          "format": "0,0",
+          "locale": "ro"
+        }
+      ]
+    }
+  },
+  "images": []
+}
